@@ -1,0 +1,183 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@9.6.6
+2 info using node@v20.2.0
+3 timing npm:load:whichnode Completed in 6ms
+4 timing config:load:defaults Completed in 7ms
+5 timing config:load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 4ms
+7 timing config:load:cli Completed in 10ms
+8 timing config:load:env Completed in 2ms
+9 timing config:load:project Completed in 10ms
+10 timing config:load:file:/data/data/com.termux/files/home/.npmrc Completed in 8ms
+11 timing config:load:user Completed in 8ms
+12 timing config:load:file:/data/data/com.termux/files/usr/etc/npmrc Completed in 1ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:setEnvs Completed in 5ms
+15 timing config:load Completed in 51ms
+16 timing npm:load:configload Completed in 52ms
+17 timing npm:load:mkdirpcache Completed in 2ms
+18 timing npm:load:mkdirplogs Completed in 1ms
+19 verbose title npm audit
+20 verbose argv "audit"
+21 timing npm:load:setTitle Completed in 6ms
+22 timing config:load:flatten Completed in 14ms
+23 timing npm:load:display Completed in 18ms
+24 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2023-08-17T00_49_46_197Z-
+25 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2023-08-17T00_49_46_197Z-debug-0.log
+26 timing npm:load:logFile Completed in 50ms
+27 timing npm:load:timers Completed in 0ms
+28 timing npm:load:configScope Completed in 0ms
+29 timing npm:load Completed in 140ms
+30 timing arborist:ctor Completed in 4ms
+31 silly logfile done cleaning log files
+32 silly audit bulk request {
+32 silly audit   'ansi-styles': [ '4.3.0' ],
+32 silly audit   'balanced-match': [ '1.0.2' ],
+32 silly audit   'block-stream': [ '0.0.9' ],
+32 silly audit   'brace-expansion': [ '1.1.11' ],
+32 silly audit   'buffer-from': [ '0.1.2' ],
+32 silly audit   builtins: [ '1.0.3' ],
+32 silly audit   chalk: [ '4.1.2' ],
+32 silly audit   'color-convert': [ '2.0.1' ],
+32 silly audit   'color-name': [ '1.1.4' ],
+32 silly audit   commander: [ '4.1.1' ],
+32 silly audit   'concat-map': [ '0.0.1' ],
+32 silly audit   'core-util-is': [ '1.0.3' ],
+32 silly audit   'create-react-app': [ '5.0.1' ],
+32 silly audit   'cross-spawn': [ '7.0.3' ],
+32 silly audit   debug: [ '2.6.9' ],
+32 silly audit   duplexer2: [ '0.0.2' ],
+32 silly audit   envinfo: [ '7.10.0' ],
+32 silly audit   'fs-extra': [ '10.1.0' ],
+32 silly audit   'fs.realpath': [ '1.0.0' ],
+32 silly audit   fstream: [ '1.0.12' ],
+32 silly audit   'fstream-ignore': [ '1.0.5' ],
+32 silly audit   glob: [ '7.2.3' ],
+32 silly audit   'graceful-fs': [ '4.2.11' ],
+32 silly audit   'has-flag': [ '4.0.0' ],
+32 silly audit   hyperquest: [ '2.1.3' ],
+32 silly audit   inflight: [ '1.0.6' ],
+32 silly audit   inherits: [ '2.0.4' ],
+32 silly audit   isarray: [ '0.0.1', '1.0.0' ],
+32 silly audit   isexe: [ '2.0.0' ],
+32 silly audit   'js-tokens': [ '4.0.0' ],
+32 silly audit   jsonfile: [ '6.1.0' ],
+32 silly audit   kleur: [ '3.0.3' ],
+32 silly audit   'loose-envify': [ '1.4.0' ],
+32 silly audit   'lru-cache': [ '6.0.0' ],
+32 silly audit   minimatch: [ '3.1.2' ],
+32 silly audit   minimist: [ '1.2.8' ],
+32 silly audit   mkdirp: [ '0.5.6' ],
+32 silly audit   ms: [ '2.0.0' ],
+32 silly audit   once: [ '1.4.0' ],
+32 silly audit   'path-is-absolute': [ '1.0.1' ],
+32 silly audit   'path-key': [ '3.1.1' ],
+32 silly audit   'process-nextick-args': [ '2.0.1' ],
+32 silly audit   prompts: [ '2.4.2' ],
+32 silly audit   react: [ '18.2.0' ],
+32 silly audit   'readable-stream': [ '1.1.14', '2.3.8', '1.0.34' ],
+32 silly audit   rimraf: [ '2.7.1', '3.0.2' ],
+32 silly audit   'safe-buffer': [ '5.1.2' ],
+32 silly audit   semver: [ '7.5.4' ],
+32 silly audit   'shebang-command': [ '2.0.0' ],
+32 silly audit   'shebang-regex': [ '3.0.0' ],
+32 silly audit   sisteransi: [ '1.0.5' ],
+32 silly audit   string_decoder: [ '0.10.31', '1.1.1' ],
+32 silly audit   'supports-color': [ '7.2.0' ],
+32 silly audit   tar: [ '2.2.2' ],
+32 silly audit   'tar-pack': [ '3.4.1' ],
+32 silly audit   through2: [ '0.6.5' ],
+32 silly audit   tmp: [ '0.2.1' ],
+32 silly audit   'uid-number': [ '0.0.6' ],
+32 silly audit   universalify: [ '2.0.0' ],
+32 silly audit   'util-deprecate': [ '1.0.2' ],
+32 silly audit   'validate-npm-package-name': [ '3.0.0' ],
+32 silly audit   which: [ '2.0.2' ],
+32 silly audit   wrappy: [ '1.0.2' ],
+32 silly audit   xtend: [ '4.0.2' ],
+32 silly audit   yallist: [ '4.0.0' ]
+32 silly audit }
+33 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 891ms
+34 timing auditReport:getReport Completed in 923ms
+35 silly audit report {
+35 silly audit report   tar: [
+35 silly audit report     {
+35 silly audit report       id: 1089685,
+35 silly audit report       url: 'https://github.com/advisories/GHSA-3jfq-g458-7qm9',
+35 silly audit report       title: 'Arbitrary File Creation/Overwrite due to insufficient absolute path sanitization',
+35 silly audit report       severity: 'high',
+35 silly audit report       vulnerable_versions: '<3.2.2',
+35 silly audit report       cwe: [Array],
+35 silly audit report       cvss: [Object]
+35 silly audit report     },
+35 silly audit report     {
+35 silly audit report       id: 1091314,
+35 silly audit report       url: 'https://github.com/advisories/GHSA-r628-mhmh-qjhw',
+35 silly audit report       title: 'Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning',
+35 silly audit report       severity: 'high',
+35 silly audit report       vulnerable_versions: '<3.2.3',
+35 silly audit report       cwe: [Array],
+35 silly audit report       cvss: [Object]
+35 silly audit report     },
+35 silly audit report     {
+35 silly audit report       id: 1091343,
+35 silly audit report       url: 'https://github.com/advisories/GHSA-9r2w-394v-53qc',
+35 silly audit report       title: 'Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning using symbolic links',
+35 silly audit report       severity: 'high',
+35 silly audit report       vulnerable_versions: '<4.4.16',
+35 silly audit report       cwe: [Array],
+35 silly audit report       cvss: [Object]
+35 silly audit report     },
+35 silly audit report     {
+35 silly audit report       id: 1091346,
+35 silly audit report       url: 'https://github.com/advisories/GHSA-5955-9wpr-37jh',
+35 silly audit report       title: 'Arbitrary File Creation/Overwrite on Windows via insufficient relative path sanitization',
+35 silly audit report       severity: 'high',
+35 silly audit report       vulnerable_versions: '<4.4.18',
+35 silly audit report       cwe: [Array],
+35 silly audit report       cvss: [Object]
+35 silly audit report     },
+35 silly audit report     {
+35 silly audit report       id: 1092992,
+35 silly audit report       url: 'https://github.com/advisories/GHSA-qq89-hq3f-393p',
+35 silly audit report       title: 'Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning using symbolic links',
+35 silly audit report       severity: 'high',
+35 silly audit report       vulnerable_versions: '<4.4.18',
+35 silly audit report       cwe: [Array],
+35 silly audit report       cvss: [Object]
+35 silly audit report     }
+35 silly audit report   ]
+35 silly audit report }
+36 timing metavuln:cache:get:security-advisory:tar:Oa066nJpV2ox85F6qnk1N5eWmAmoWAMU7byYhWk4oYfHYrQ8aGHfCKRikfcy0dHDcKWKiPRc7Nz7R9fxKkj0Yw== Completed in 65ms
+37 timing metavuln:cache:get:security-advisory:tar://v7gXY4srL0Vdj6ndv/W5RidNqQcJEzKPP7wzp8ldEeGt+rcrGXk7GHbv4gaxsVCuNoYWXEG3Q0o+8zvTa+bA== Completed in 50ms
+38 timing metavuln:cache:get:security-advisory:tar:6IrrInvFtCltpVhVG2VxuzkWZKyBFFz82q8vKUG6SlVafYLuCJzljuu4f8Lj65dXTwl03T5SLKe7fT6K17W2yg== Completed in 50ms
+39 timing metavuln:cache:get:security-advisory:tar:p0AhLehZPY5CdqjgwJhs5z5O0h0MqVniwTfTsAMaLNDQ/RkWBbPEEZS5yXBrO2vDkOIaucWVWkY+Xk5QvzhkDA== Completed in 52ms
+40 timing metavuln:cache:get:security-advisory:tar:iX22dkMRdz5sNHJkIH9BBcy6srHLXMg4rYGql4fiqoNHXvrVPvLqL3FL7m1C3wd5kX3Dp8hfJvPCxYFiRlWIpw== Completed in 53ms
+41 http fetch GET 200 https://registry.npmjs.org/tar 104ms (cache hit)
+42 timing metavuln:packument:tar Completed in 128ms
+43 timing metavuln:load:security-advisory:tar:1089685 Completed in 7ms
+44 timing metavuln:calculate:security-advisory:tar:1089685 Completed in 142ms
+45 timing metavuln:load:security-advisory:tar:1091314 Completed in 3ms
+46 timing metavuln:calculate:security-advisory:tar:1091314 Completed in 127ms
+47 timing metavuln:load:security-advisory:tar:1091343 Completed in 3ms
+48 timing metavuln:calculate:security-advisory:tar:1091343 Completed in 130ms
+49 timing metavuln:load:security-advisory:tar:1091346 Completed in 3ms
+50 timing metavuln:calculate:security-advisory:tar:1091346 Completed in 134ms
+51 timing metavuln:load:security-advisory:tar:1092992 Completed in 4ms
+52 timing metavuln:calculate:security-advisory:tar:1092992 Completed in 136ms
+53 timing metavuln:cache:get:security-advisory:tar-pack:3KXljJwoAr/NHejfU6kg41RmjF3Pg6M28t7ViuMjk5SYV3kYL9qyGZ417dIFb1Y8K+hhpo0sBWpskxrKhsZQzQ== Completed in 19ms
+54 http fetch GET 200 https://registry.npmjs.org/tar-pack 35ms (cache hit)
+55 timing metavuln:packument:tar-pack Completed in 41ms
+56 timing metavuln:load:security-advisory:tar-pack:Oa066nJpV2ox85F6qnk1N5eWmAmoWAMU7byYhWk4oYfHYrQ8aGHfCKRikfcy0dHDcKWKiPRc7Nz7R9fxKkj0Yw== Completed in 1ms
+57 timing metavuln:calculate:security-advisory:tar-pack:Oa066nJpV2ox85F6qnk1N5eWmAmoWAMU7byYhWk4oYfHYrQ8aGHfCKRikfcy0dHDcKWKiPRc7Nz7R9fxKkj0Yw== Completed in 43ms
+58 timing metavuln:cache:get:security-advisory:create-react-app:BAP5sjD/UipbJVBCija12WlnlurqvRCOfkHPDCK3St763W6JIxpLfRD1F9PMmW4GEaZmK6BFkh/Pye257xPpCw== Completed in 17ms
+59 http fetch GET 200 https://registry.npmjs.org/create-react-app 37ms (cache hit)
+60 timing metavuln:packument:create-react-app Completed in 47ms
+61 timing metavuln:load:security-advisory:create-react-app:3KXljJwoAr/NHejfU6kg41RmjF3Pg6M28t7ViuMjk5SYV3kYL9qyGZ417dIFb1Y8K+hhpo0sBWpskxrKhsZQzQ== Completed in 8ms
+62 timing metavuln:calculate:security-advisory:create-react-app:3KXljJwoAr/NHejfU6kg41RmjF3Pg6M28t7ViuMjk5SYV3kYL9qyGZ417dIFb1Y8K+hhpo0sBWpskxrKhsZQzQ== Completed in 57ms
+63 timing auditReport:init Completed in 398ms
+64 timing audit Completed in 1524ms
+65 timing command:audit Completed in 1595ms
+66 verbose exit 0
+67 timing npm Completed in 2877ms
+68 info ok

@@ -1,0 +1,46 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@9.6.6
+2 info using node@v20.2.0
+3 timing npm:load:whichnode Completed in 6ms
+4 timing config:load:defaults Completed in 8ms
+5 timing config:load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 3ms
+7 timing config:load:cli Completed in 14ms
+8 timing config:load:env Completed in 2ms
+9 timing config:load:project Completed in 13ms
+10 timing config:load:file:/data/data/com.termux/files/home/.npmrc Completed in 10ms
+11 timing config:load:user Completed in 10ms
+12 timing config:load:file:/data/data/com.termux/files/usr/etc/npmrc Completed in 1ms
+13 timing config:load:global Completed in 3ms
+14 timing config:load:setEnvs Completed in 5ms
+15 timing config:load Completed in 63ms
+16 timing npm:load:configload Completed in 64ms
+17 timing npm:load:mkdirpcache Completed in 3ms
+18 timing npm:load:mkdirplogs Completed in 2ms
+19 verbose title npm install npm@latest
+20 verbose argv "install" "--global" "npm@latest"
+21 timing npm:load:setTitle Completed in 7ms
+22 timing config:load:flatten Completed in 15ms
+23 timing npm:load:display Completed in 19ms
+24 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2023-08-17T00_26_57_602Z-
+25 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2023-08-17T00_26_57_602Z-debug-0.log
+26 timing npm:load:logFile Completed in 54ms
+27 timing npm:load:timers Completed in 1ms
+28 timing npm:load:configScope Completed in 0ms
+29 timing npm:load Completed in 161ms
+30 timing config:load:flatten Completed in 5ms
+31 silly logfile done cleaning log files
+32 http fetch GET 200 https://registry.npmjs.org/npm 1181ms (cache miss)
+33 timing command:install Completed in 1385ms
+34 verbose stack Error: Can't install npm globally as it will very likely break installation of global packages using npm. See https://github.com/termux/termux-packages/issues/13293
+34 verbose stack     at Install.exec (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/commands/install.js:129:17)
+34 verbose stack     at async module.exports (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/cli.js:89:5)
+35 verbose cwd /storage/emulated/0
+36 verbose Linux 4.9.190-perf-ge23fb46
+37 verbose node v20.2.0
+38 verbose npm  v9.6.6
+39 error Can't install npm globally as it will very likely break installation of global packages using npm. See https://github.com/termux/termux-packages/issues/13293
+40 verbose exit 1
+41 timing npm Completed in 3399ms
+42 verbose code 1
+43 error A complete log of this run can be found in: /data/data/com.termux/files/home/.npm/_logs/2023-08-17T00_26_57_602Z-debug-0.log

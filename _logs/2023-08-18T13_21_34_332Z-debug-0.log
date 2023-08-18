@@ -1,0 +1,143 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@9.6.6
+2 info using node@v20.2.0
+3 timing npm:load:whichnode Completed in 98ms
+4 timing config:load:defaults Completed in 22ms
+5 timing config:load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc Completed in 4ms
+6 timing config:load:builtin Completed in 12ms
+7 timing config:load:cli Completed in 16ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/storage/emulated/0/Tailwind/.npmrc Completed in 6ms
+10 timing config:load:project Completed in 70ms
+11 timing config:load:file:/data/data/com.termux/files/home/.npmrc Completed in 35ms
+12 timing config:load:user Completed in 36ms
+13 timing config:load:file:/data/data/com.termux/files/usr/etc/npmrc Completed in 8ms
+14 timing config:load:global Completed in 9ms
+15 timing config:load:setEnvs Completed in 12ms
+16 timing config:load Completed in 184ms
+17 timing npm:load:configload Completed in 186ms
+18 timing npm:load:mkdirpcache Completed in 8ms
+19 timing npm:load:mkdirplogs Completed in 5ms
+20 verbose title npm i prettier-plugin-tailwindcss
+21 verbose argv "i" "--save-dev" "prettier-plugin-tailwindcss"
+22 timing npm:load:setTitle Completed in 8ms
+23 timing config:load:flatten Completed in 32ms
+24 timing npm:load:display Completed in 39ms
+25 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2023-08-18T13_21_34_332Z-
+26 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2023-08-18T13_21_34_332Z-debug-0.log
+27 timing npm:load:logFile Completed in 145ms
+28 timing npm:load:timers Completed in 1ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 496ms
+31 timing arborist:ctor Completed in 9ms
+32 silly logfile done cleaning log files
+33 timing arborist:ctor Completed in 1ms
+34 timing idealTree:init Completed in 90ms
+35 timing idealTree:userRequests Completed in 22ms
+36 silly idealTree buildDeps
+37 silly fetch manifest prettier-plugin-tailwindcss@*
+38 http fetch GET 200 https://registry.npmjs.org/prettier-plugin-tailwindcss 7428ms (cache miss)
+39 silly fetch manifest @ianvs/prettier-plugin-sort-imports@*
+40 http fetch GET 200 https://registry.npmjs.org/@ianvs%2fprettier-plugin-sort-imports 2032ms (cache miss)
+41 silly fetch manifest @vue/compiler-sfc@>=3.0.0
+42 http fetch GET 200 https://registry.npmjs.org/@vue%2fcompiler-sfc 726ms (cache revalidated)
+43 silly fetch manifest prettier@2 || 3
+44 http fetch GET 200 https://registry.npmjs.org/prettier 195ms (cache miss)
+45 silly fetch manifest @prettier/plugin-pug@*
+46 http fetch GET 200 https://registry.npmjs.org/@prettier%2fplugin-pug 1975ms (cache miss)
+47 silly fetch manifest @shopify/prettier-plugin-liquid@*
+48 http fetch GET 200 https://registry.npmjs.org/@shopify%2fprettier-plugin-liquid 2240ms (cache miss)
+49 silly fetch manifest @shufo/prettier-plugin-blade@*
+50 http fetch GET 200 https://registry.npmjs.org/@shufo%2fprettier-plugin-blade 2375ms (cache miss)
+51 silly fetch manifest @trivago/prettier-plugin-sort-imports@*
+52 http fetch GET 200 https://registry.npmjs.org/@trivago%2fprettier-plugin-sort-imports 1266ms (cache miss)
+53 silly fetch manifest prettier-plugin-astro@*
+54 http fetch GET 200 https://registry.npmjs.org/prettier-plugin-astro 552ms (cache miss)
+55 silly fetch manifest prettier-plugin-css-order@*
+56 http fetch GET 200 https://registry.npmjs.org/prettier-plugin-css-order 1073ms (cache miss)
+57 silly fetch manifest prettier-plugin-import-sort@*
+58 http fetch GET 200 https://registry.npmjs.org/prettier-plugin-import-sort 417ms (cache miss)
+59 silly fetch manifest prettier-plugin-jsdoc@*
+60 http fetch GET 200 https://registry.npmjs.org/prettier-plugin-jsdoc 972ms (cache miss)
+61 silly fetch manifest prettier-plugin-organize-attributes@*
+62 http fetch GET 200 https://registry.npmjs.org/prettier-plugin-organize-attributes 916ms (cache miss)
+63 silly fetch manifest prettier-plugin-organize-imports@*
+64 http fetch GET 200 https://registry.npmjs.org/prettier-plugin-organize-imports 953ms (cache miss)
+65 silly fetch manifest @volar/vue-language-plugin-pug@^1.0.4
+66 http fetch GET 200 https://registry.npmjs.org/@volar%2fvue-language-plugin-pug 2216ms (cache miss)
+67 silly fetch manifest @volar/vue-typescript@^1.0.4
+68 http fetch GET 200 https://registry.npmjs.org/@volar%2fvue-typescript 2077ms (cache miss)
+69 silly fetch manifest typescript@*
+70 http fetch GET 200 https://registry.npmjs.org/typescript 1731ms (cache miss)
+71 silly fetch manifest prettier-plugin-style-order@*
+72 http fetch GET 200 https://registry.npmjs.org/prettier-plugin-style-order 1007ms (cache miss)
+73 silly fetch manifest prettier-plugin-svelte@*
+74 http fetch GET 200 https://registry.npmjs.org/prettier-plugin-svelte 261ms (cache miss)
+75 silly fetch manifest svelte@^3.2.0 || ^4.0.0-next.0
+76 http fetch GET 200 https://registry.npmjs.org/svelte 496ms (cache miss)
+77 silly placeDep ROOT prettier-plugin-tailwindcss@0.5.3 OK for: tailwind@1.0.0 want: *
+78 silly placeDep ROOT prettier@3.0.2 OK for: prettier-plugin-tailwindcss@0.5.3 want: ^3.0
+79 timing idealTree:#root Completed in 32357ms
+80 timing idealTree:node_modules/prettier Completed in 1ms
+81 timing idealTree:node_modules/prettier-plugin-tailwindcss Completed in 1ms
+82 timing idealTree:buildDeps Completed in 32380ms
+83 timing idealTree:fixDepFlags Completed in 6ms
+84 timing idealTree Completed in 32510ms
+85 timing reify:loadTrees Completed in 32519ms
+86 timing reify:diffTrees Completed in 11ms
+87 silly reify moves {}
+88 timing reify:retireShallow Completed in 17ms
+89 timing reify:createSparse Completed in 13ms
+90 timing reify:loadBundles Completed in 0ms
+91 silly audit bulk request { 'prettier-plugin-tailwindcss': [ '0.5.3' ], prettier: [ '3.0.2' ] }
+92 silly tarball no local data for prettier@https://registry.npmjs.org/prettier/-/prettier-3.0.2.tgz. Extracting by manifest.
+93 silly tarball no local data for prettier-plugin-tailwindcss@https://registry.npmjs.org/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.5.3.tgz. Extracting by manifest.
+94 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 659ms
+95 timing auditReport:getReport Completed in 676ms
+96 silly audit report {}
+97 timing auditReport:init Completed in 1ms
+98 timing reify:audit Completed in 684ms
+99 http fetch GET 200 https://registry.npmjs.org/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.5.3.tgz 1843ms (cache miss)
+100 timing reifyNode:node_modules/prettier-plugin-tailwindcss Completed in 1953ms
+101 http fetch GET 200 https://registry.npmjs.org/prettier/-/prettier-3.0.2.tgz 2409ms (cache miss)
+102 timing reifyNode:node_modules/prettier Completed in 2503ms
+103 timing reify:unpack Completed in 2507ms
+104 timing reify:unretire Completed in 1ms
+105 timing build:queue Completed in 7ms
+106 timing reify:rollback:createSparse Completed in 72ms
+107 timing reify:rollback:retireShallow Completed in 1ms
+108 timing command:i Completed in 35666ms
+109 verbose stack Error: EPERM: operation not permitted, symlink '../prettier/bin/prettier.cjs' -> '/storage/emulated/0/Tailwind/node_modules/.bin/prettier'
+110 verbose cwd /storage/emulated/0/Tailwind
+111 verbose Linux 4.9.190-perf-ge23fb46
+112 verbose node v20.2.0
+113 verbose npm  v9.6.6
+114 error code EPERM
+115 error syscall symlink
+116 error path ../prettier/bin/prettier.cjs
+117 error dest /storage/emulated/0/Tailwind/node_modules/.bin/prettier
+118 error errno -1
+119 error [Error: EPERM: operation not permitted, symlink '../prettier/bin/prettier.cjs' -> '/storage/emulated/0/Tailwind/node_modules/.bin/prettier'] {
+119 error   errno: -1,
+119 error   code: 'EPERM',
+119 error   syscall: 'symlink',
+119 error   path: '../prettier/bin/prettier.cjs',
+119 error   dest: '/storage/emulated/0/Tailwind/node_modules/.bin/prettier'
+119 error }
+120 error
+120 error The operation was rejected by your operating system.
+120 error It is likely you do not have the permissions to access this file as the current user
+120 error
+120 error If you believe this might be a permissions issue, please double-check the
+120 error permissions of the file and its containing directories, or try running
+120 error the command again as root/Administrator.
+121 verbose exit -1
+122 timing npm Completed in 47005ms
+123 verbose unfinished npm timer reify 1692364906169
+124 verbose unfinished npm timer reify:build 1692364941561
+125 verbose unfinished npm timer build 1692364941564
+126 verbose unfinished npm timer build:deps 1692364941567
+127 verbose unfinished npm timer build:link 1692364941577
+128 verbose unfinished npm timer build:link:node_modules/prettier 1692364941578
+129 verbose code -1
+130 error A complete log of this run can be found in: /data/data/com.termux/files/home/.npm/_logs/2023-08-18T13_21_34_332Z-debug-0.log

@@ -1,0 +1,624 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@9.6.6
+2 info using node@v20.2.0
+3 timing npm:load:whichnode Completed in 98ms
+4 timing config:load:defaults Completed in 15ms
+5 timing config:load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc Completed in 16ms
+6 timing config:load:builtin Completed in 18ms
+7 timing config:load:cli Completed in 36ms
+8 timing config:load:env Completed in 6ms
+9 timing config:load:file:/storage/emulated/0/my-react-app/.npmrc Completed in 7ms
+10 timing config:load:project Completed in 26ms
+11 timing config:load:file:/data/data/com.termux/files/home/.npmrc Completed in 15ms
+12 timing config:load:user Completed in 18ms
+13 timing config:load:file:/data/data/com.termux/files/usr/etc/npmrc Completed in 2ms
+14 timing config:load:global Completed in 4ms
+15 timing config:load:setEnvs Completed in 9ms
+16 timing config:load Completed in 140ms
+17 timing npm:load:configload Completed in 142ms
+18 timing npm:load:mkdirpcache Completed in 3ms
+19 timing npm:load:mkdirplogs Completed in 2ms
+20 verbose title npm install react react-dom react-scripts cra-template
+21 verbose argv "install" "--no-audit" "--save" "--save-exact" "--loglevel" "error" "react" "react-dom" "react-scripts" "cra-template"
+22 timing npm:load:setTitle Completed in 35ms
+23 timing config:load:flatten Completed in 43ms
+24 timing npm:load:display Completed in 53ms
+25 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2023-07-07T21_07_00_950Z-
+26 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2023-07-07T21_07_00_950Z-debug-0.log
+27 timing npm:load:logFile Completed in 83ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 428ms
+31 timing arborist:ctor Completed in 9ms
+32 silly logfile done cleaning log files
+33 timing arborist:ctor Completed in 1ms
+34 timing idealTree:init Completed in 112ms
+35 timing idealTree:userRequests Completed in 60ms
+36 silly idealTree buildDeps
+37 silly fetch manifest react@*
+38 http fetch GET 200 https://registry.npmjs.org/react 2339ms (cache updated)
+39 silly fetch manifest react-dom@*
+40 http fetch GET 200 https://registry.npmjs.org/react-dom 763ms (cache updated)
+41 silly fetch manifest react-scripts@*
+42 http fetch GET 200 https://registry.npmjs.org/react-scripts 580ms (cache revalidated)
+43 silly fetch manifest typescript@^3.2.1 || ^4
+44 http fetch GET 200 https://registry.npmjs.org/typescript 1979ms (cache updated)
+45 silly fetch manifest cra-template@*
+46 http fetch GET 200 https://registry.npmjs.org/cra-template 247ms (cache revalidated)
+47 silly placeDep ROOT cra-template@1.2.0 OK for: my-react-app@0.1.0 want: *
+48 silly placeDep ROOT react@18.2.0 OK for: my-react-app@0.1.0 want: *
+49 silly fetch manifest loose-envify@^1.1.0
+50 silly placeDep ROOT react-dom@18.2.0 OK for: my-react-app@0.1.0 want: *
+51 silly fetch manifest scheduler@^0.23.0
+52 silly placeDep ROOT react-scripts@5.0.1 OK for: my-react-app@0.1.0 want: *
+53 silly fetch manifest @babel/core@^7.16.0
+54 silly fetch manifest @pmmmwh/react-refresh-webpack-plugin@^0.5.3
+55 silly fetch manifest @svgr/webpack@^5.5.0
+56 silly fetch manifest babel-jest@^27.4.2
+57 silly fetch manifest babel-loader@^8.2.3
+58 silly fetch manifest babel-plugin-named-asset-import@^0.3.8
+59 silly fetch manifest babel-preset-react-app@^10.0.1
+60 silly fetch manifest bfj@^7.0.2
+61 silly fetch manifest browserslist@^4.18.1
+62 silly fetch manifest camelcase@^6.2.1
+63 silly fetch manifest case-sensitive-paths-webpack-plugin@^2.4.0
+64 silly fetch manifest css-loader@^6.5.1
+65 silly fetch manifest css-minimizer-webpack-plugin@^3.2.0
+66 silly fetch manifest dotenv@^10.0.0
+67 silly fetch manifest dotenv-expand@^5.1.0
+68 silly fetch manifest eslint@^8.3.0
+69 silly fetch manifest eslint-config-react-app@^7.0.1
+70 silly fetch manifest eslint-webpack-plugin@^3.1.1
+71 silly fetch manifest file-loader@^6.2.0
+72 silly fetch manifest fs-extra@^10.0.0
+73 silly fetch manifest html-webpack-plugin@^5.5.0
+74 silly fetch manifest identity-obj-proxy@^3.0.0
+75 silly fetch manifest jest@^27.4.3
+76 silly fetch manifest jest-resolve@^27.4.2
+77 silly fetch manifest jest-watch-typeahead@^1.0.0
+78 silly fetch manifest mini-css-extract-plugin@^2.4.5
+79 silly fetch manifest postcss@^8.4.4
+80 silly fetch manifest postcss-flexbugs-fixes@^5.0.2
+81 silly fetch manifest postcss-loader@^6.2.1
+82 silly fetch manifest postcss-normalize@^10.0.1
+83 silly fetch manifest postcss-preset-env@^7.0.1
+84 silly fetch manifest prompts@^2.4.2
+85 silly fetch manifest react-app-polyfill@^3.0.0
+86 silly fetch manifest react-dev-utils@^12.0.1
+87 silly fetch manifest react-refresh@^0.11.0
+88 silly fetch manifest resolve@^1.20.0
+89 silly fetch manifest resolve-url-loader@^4.0.0
+90 silly fetch manifest sass-loader@^12.3.0
+91 silly fetch manifest semver@^7.3.5
+92 silly fetch manifest source-map-loader@^3.0.0
+93 silly fetch manifest style-loader@^3.3.1
+94 silly fetch manifest tailwindcss@^3.0.2
+95 silly fetch manifest terser-webpack-plugin@^5.2.5
+96 silly fetch manifest webpack@^5.64.4
+97 silly fetch manifest webpack-dev-server@^4.6.0
+98 silly fetch manifest webpack-manifest-plugin@^4.0.2
+99 silly fetch manifest workbox-webpack-plugin@^6.4.1
+100 silly fetch manifest fsevents@^2.3.2
+101 http fetch GET 200 https://registry.npmjs.org/dotenv 1852ms (cache revalidated)
+102 http fetch GET 200 https://registry.npmjs.org/camelcase 1892ms (cache revalidated)
+103 http fetch GET 200 https://registry.npmjs.org/case-sensitive-paths-webpack-plugin 2044ms (cache revalidated)
+104 http fetch GET 200 https://registry.npmjs.org/css-loader 2070ms (cache revalidated)
+105 http fetch GET 200 https://registry.npmjs.org/eslint 2096ms (cache revalidated)
+106 http fetch GET 200 https://registry.npmjs.org/css-minimizer-webpack-plugin 2245ms (cache revalidated)
+107 http fetch GET 200 https://registry.npmjs.org/fs-extra 2328ms (cache revalidated)
+108 http fetch GET 200 https://registry.npmjs.org/eslint-webpack-plugin 2399ms (cache revalidated)
+109 http fetch GET 200 https://registry.npmjs.org/html-webpack-plugin 2395ms (cache revalidated)
+110 http fetch GET 200 https://registry.npmjs.org/jest 2407ms (cache revalidated)
+111 http fetch GET 200 https://registry.npmjs.org/dotenv-expand 2549ms (cache updated)
+112 http fetch GET 200 https://registry.npmjs.org/jest-resolve 2539ms (cache revalidated)
+113 http fetch GET 200 https://registry.npmjs.org/jest-watch-typeahead 2579ms (cache revalidated)
+114 http fetch GET 200 https://registry.npmjs.org/identity-obj-proxy 2618ms (cache revalidated)
+115 http fetch GET 200 https://registry.npmjs.org/browserslist 2708ms (cache revalidated)
+116 http fetch GET 200 https://registry.npmjs.org/eslint-config-react-app 2817ms (cache revalidated)
+117 http fetch GET 200 https://registry.npmjs.org/postcss 2876ms (cache revalidated)
+118 http fetch GET 200 https://registry.npmjs.org/postcss-loader 2897ms (cache revalidated)
+119 http fetch GET 200 https://registry.npmjs.org/postcss-flexbugs-fixes 2936ms (cache revalidated)
+120 http fetch GET 200 https://registry.npmjs.org/react-app-polyfill 3030ms (cache revalidated)
+121 http fetch GET 200 https://registry.npmjs.org/mini-css-extract-plugin 3085ms (cache revalidated)
+122 http fetch GET 200 https://registry.npmjs.org/file-loader 3155ms (cache revalidated)
+123 http fetch GET 200 https://registry.npmjs.org/postcss-normalize 3093ms (cache revalidated)
+124 http fetch GET 200 https://registry.npmjs.org/postcss-preset-env 3191ms (cache revalidated)
+125 http fetch GET 200 https://registry.npmjs.org/resolve 3203ms (cache revalidated)
+126 http fetch GET 200 https://registry.npmjs.org/react-dev-utils 3230ms (cache revalidated)
+127 http fetch GET 200 https://registry.npmjs.org/prompts 3265ms (cache revalidated)
+128 http fetch GET 200 https://registry.npmjs.org/semver 3315ms (cache revalidated)
+129 http fetch GET 200 https://registry.npmjs.org/resolve-url-loader 3350ms (cache revalidated)
+130 http fetch GET 200 https://registry.npmjs.org/sass-loader 3371ms (cache revalidated)
+131 http fetch GET 200 https://registry.npmjs.org/source-map-loader 3424ms (cache revalidated)
+132 http fetch GET 200 https://registry.npmjs.org/terser-webpack-plugin 3413ms (cache revalidated)
+133 http fetch GET 200 https://registry.npmjs.org/webpack-dev-server 3426ms (cache revalidated)
+134 http fetch GET 200 https://registry.npmjs.org/webpack 3501ms (cache revalidated)
+135 http fetch GET 200 https://registry.npmjs.org/style-loader 3735ms (cache revalidated)
+136 http fetch GET 200 https://registry.npmjs.org/workbox-webpack-plugin 3739ms (cache revalidated)
+137 http fetch GET 200 https://registry.npmjs.org/webpack-manifest-plugin 3762ms (cache revalidated)
+138 http fetch GET 200 https://registry.npmjs.org/fsevents 3886ms (cache revalidated)
+139 http fetch GET 200 https://registry.npmjs.org/tailwindcss 3977ms (cache miss)
+140 http fetch GET 200 https://registry.npmjs.org/react-refresh 4330ms (cache updated)
+141 http fetch GET 200 https://registry.npmjs.org/babel-jest 15057ms (cache revalidated)
+142 http fetch GET 200 https://registry.npmjs.org/loose-envify 15177ms (cache revalidated)
+143 http fetch GET 200 https://registry.npmjs.org/@babel%2fcore 15192ms (cache revalidated)
+144 http fetch GET 200 https://registry.npmjs.org/@svgr%2fwebpack 15200ms attempt #2 (cache updated)
+145 http fetch GET 200 https://registry.npmjs.org/babel-loader 15218ms attempt #2 (cache updated)
+146 http fetch GET 200 https://registry.npmjs.org/babel-plugin-named-asset-import 15370ms (cache revalidated)
+147 http fetch GET 200 https://registry.npmjs.org/@pmmmwh%2freact-refresh-webpack-plugin 15406ms (cache revalidated)
+148 http fetch GET 200 https://registry.npmjs.org/bfj 15397ms (cache revalidated)
+149 http fetch GET 200 https://registry.npmjs.org/babel-preset-react-app 15689ms (cache revalidated)
+150 http fetch GET 200 https://registry.npmjs.org/scheduler 16051ms attempt #2 (cache updated)
+151 timing idealTree:#root Completed in 23380ms
+152 timing idealTree:node_modules/cra-template Completed in 5ms
+153 silly placeDep ROOT loose-envify@1.4.0 OK for: react@18.2.0 want: ^1.1.0
+154 silly fetch manifest js-tokens@^3.0.0 || ^4.0.0
+155 http fetch GET 200 https://registry.npmjs.org/js-tokens 179ms (cache revalidated)
+156 timing idealTree:node_modules/react Completed in 238ms
+157 silly placeDep ROOT js-tokens@4.0.0 OK for: loose-envify@1.4.0 want: ^3.0.0 || ^4.0.0
+158 timing idealTree:node_modules/loose-envify Completed in 19ms
+159 timing idealTree:node_modules/js-tokens Completed in 0ms
+160 silly placeDep ROOT scheduler@0.23.0 OK for: react-dom@18.2.0 want: ^0.23.0
+161 timing idealTree:node_modules/react-dom Completed in 27ms
+162 silly fetch manifest @types/webpack@4.x || 5.x
+163 http fetch GET 200 https://registry.npmjs.org/@types%2fwebpack 395ms (cache miss)
+164 silly fetch manifest sockjs-client@^1.4.0
+165 http fetch GET 200 https://registry.npmjs.org/sockjs-client 223ms (cache miss)
+166 silly fetch manifest type-fest@>=0.17.0 <4.0.0
+167 http fetch GET 200 https://registry.npmjs.org/type-fest 748ms (cache miss)
+168 silly fetch manifest webpack-hot-middleware@2.x
+169 http fetch GET 200 https://registry.npmjs.org/webpack-hot-middleware 341ms (cache miss)
+170 silly fetch manifest webpack-plugin-serve@0.x || 1.x
+171 http fetch GET 200 https://registry.npmjs.org/webpack-plugin-serve 1748ms (cache miss)
+172 silly fetch manifest node-notifier@^8.0.1 || ^9.0.0 || ^10.0.0
+173 http fetch GET 200 https://registry.npmjs.org/node-notifier 77020ms attempt #3 (cache miss)
+174 silly fetch manifest rework@1.0.1
+175 http fetch GET 200 https://registry.npmjs.org/rework 305ms (cache miss)
+176 silly fetch manifest rework-visit@1.0.0
+177 http fetch GET 200 https://registry.npmjs.org/rework-visit 247ms (cache miss)
+178 silly fetch manifest fibers@>= 3.1.0
+179 http fetch GET 200 https://registry.npmjs.org/fibers 130ms (cache miss)
+180 silly fetch manifest node-sass@^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
+181 http fetch GET 200 https://registry.npmjs.org/node-sass 578ms (cache miss)
+182 silly fetch manifest sass@^1.3.0
+183 http fetch GET 200 https://registry.npmjs.org/sass 199ms (cache miss)
+184 silly fetch manifest sass-embedded@*
+185 http fetch GET 200 https://registry.npmjs.org/sass-embedded 240ms (cache miss)
+186 silly placeDep ROOT @babel/core@7.22.8 OK for: react-scripts@5.0.1 want: ^7.16.0
+187 silly fetch manifest @ampproject/remapping@^2.2.0
+188 silly fetch manifest @babel/code-frame@^7.22.5
+189 silly fetch manifest @babel/generator@^7.22.7
+190 silly fetch manifest @babel/helper-compilation-targets@^7.22.6
+191 silly fetch manifest @babel/helper-module-transforms@^7.22.5
+192 silly fetch manifest @babel/helpers@^7.22.6
+193 silly fetch manifest @babel/parser@^7.22.7
+194 silly fetch manifest @babel/template@^7.22.5
+195 silly fetch manifest @babel/traverse@^7.22.8
+196 silly fetch manifest @babel/types@^7.22.5
+197 silly fetch manifest @nicolo-ribaudo/semver-v6@^6.3.3
+198 silly fetch manifest convert-source-map@^1.7.0
+199 silly fetch manifest debug@^4.1.0
+200 silly fetch manifest gensync@^1.0.0-beta.2
+201 silly fetch manifest json5@^2.2.2
+202 silly placeDep ROOT @pmmmwh/react-refresh-webpack-plugin@0.5.10 OK for: react-scripts@5.0.1 want: ^0.5.3
+203 silly placeDep ROOT react-refresh@0.11.0 OK for: @pmmmwh/react-refresh-webpack-plugin@0.5.10 want: >=0.10.0 <1.0.0
+204 silly placeDep ROOT webpack@5.88.1 OK for: @pmmmwh/react-refresh-webpack-plugin@0.5.10 want: >=4.43.0 <6.0.0
+205 silly fetch manifest ansi-html-community@^0.0.8
+206 silly fetch manifest common-path-prefix@^3.0.0
+207 silly fetch manifest core-js-pure@^3.23.3
+208 silly fetch manifest error-stack-parser@^2.0.6
+209 silly fetch manifest find-up@^5.0.0
+210 silly fetch manifest html-entities@^2.1.0
+211 silly fetch manifest loader-utils@^2.0.4
+212 silly fetch manifest schema-utils@^3.0.0
+213 silly fetch manifest source-map@^0.7.3
+214 silly fetch manifest @types/eslint-scope@^3.7.3
+215 silly fetch manifest @types/estree@^1.0.0
+216 silly fetch manifest @webassemblyjs/ast@^1.11.5
+217 silly fetch manifest @webassemblyjs/wasm-edit@^1.11.5
+218 silly fetch manifest @webassemblyjs/wasm-parser@^1.11.5
+219 silly fetch manifest acorn@^8.7.1
+220 silly fetch manifest acorn-import-assertions@^1.9.0
+221 silly fetch manifest browserslist@^4.14.5
+222 silly fetch manifest chrome-trace-event@^1.0.2
+223 silly fetch manifest enhanced-resolve@^5.15.0
+224 silly fetch manifest es-module-lexer@^1.2.1
+225 silly fetch manifest eslint-scope@5.1.1
+226 silly fetch manifest events@^3.2.0
+227 silly fetch manifest glob-to-regexp@^0.4.1
+228 silly fetch manifest graceful-fs@^4.2.9
+229 silly fetch manifest json-parse-even-better-errors@^2.3.1
+230 silly fetch manifest loader-runner@^4.2.0
+231 silly fetch manifest mime-types@^2.1.27
+232 silly fetch manifest neo-async@^2.6.2
+233 silly fetch manifest schema-utils@^3.2.0
+234 silly fetch manifest tapable@^2.1.1
+235 silly fetch manifest terser-webpack-plugin@^5.3.7
+236 silly fetch manifest watchpack@^2.4.0
+237 silly fetch manifest webpack-sources@^3.2.3
+238 silly placeDep ROOT @svgr/webpack@5.5.0 OK for: react-scripts@5.0.1 want: ^5.5.0
+239 silly fetch manifest @babel/plugin-transform-react-constant-elements@^7.12.1
+240 silly fetch manifest @babel/preset-env@^7.12.1
+241 silly fetch manifest @babel/preset-react@^7.12.5
+242 silly fetch manifest @svgr/core@^5.5.0
+243 silly fetch manifest @svgr/plugin-jsx@^5.5.0
+244 silly fetch manifest @svgr/plugin-svgo@^5.5.0
+245 silly fetch manifest loader-utils@^2.0.0
+246 silly placeDep ROOT babel-jest@27.5.1 OK for: react-scripts@5.0.1 want: ^27.4.2
+247 silly fetch manifest @jest/transform@^27.5.1
+248 silly fetch manifest @jest/types@^27.5.1
+249 silly fetch manifest @types/babel__core@^7.1.14
+250 silly fetch manifest babel-plugin-istanbul@^6.1.1
+251 silly fetch manifest babel-preset-jest@^27.5.1
+252 silly fetch manifest chalk@^4.0.0
+253 silly fetch manifest slash@^3.0.0
+254 silly placeDep ROOT babel-loader@8.3.0 OK for: react-scripts@5.0.1 want: ^8.2.3
+255 silly fetch manifest find-cache-dir@^3.3.1
+256 silly fetch manifest make-dir@^3.1.0
+257 silly fetch manifest schema-utils@^2.6.5
+258 silly placeDep ROOT babel-plugin-named-asset-import@0.3.8 OK for: react-scripts@5.0.1 want: ^0.3.8
+259 silly placeDep ROOT babel-preset-react-app@10.0.1 OK for: react-scripts@5.0.1 want: ^10.0.1
+260 silly fetch manifest @babel/plugin-proposal-class-properties@^7.16.0
+261 silly fetch manifest @babel/plugin-proposal-decorators@^7.16.4
+262 silly fetch manifest @babel/plugin-proposal-nullish-coalescing-operator@^7.16.0
+263 silly fetch manifest @babel/plugin-proposal-numeric-separator@^7.16.0
+264 silly fetch manifest @babel/plugin-proposal-optional-chaining@^7.16.0
+265 silly fetch manifest @babel/plugin-proposal-private-methods@^7.16.0
+266 silly fetch manifest @babel/plugin-transform-flow-strip-types@^7.16.0
+267 silly fetch manifest @babel/plugin-transform-react-display-name@^7.16.0
+268 silly fetch manifest @babel/plugin-transform-runtime@^7.16.4
+269 silly fetch manifest @babel/preset-env@^7.16.4
+270 silly fetch manifest @babel/preset-react@^7.16.0
+271 silly fetch manifest @babel/preset-typescript@^7.16.0
+272 silly fetch manifest @babel/runtime@^7.16.3
+273 silly fetch manifest babel-plugin-macros@^3.1.0
+274 silly fetch manifest babel-plugin-transform-react-remove-prop-types@^0.4.24
+275 silly placeDep ROOT bfj@7.0.2 OK for: react-scripts@5.0.1 want: ^7.0.2
+276 silly fetch manifest bluebird@^3.5.5
+277 silly fetch manifest check-types@^11.1.1
+278 silly fetch manifest hoopy@^0.1.4
+279 silly fetch manifest tryer@^1.0.1
+280 silly placeDep ROOT browserslist@4.21.9 OK for: react-scripts@5.0.1 want: ^4.18.1
+281 silly fetch manifest caniuse-lite@^1.0.30001503
+282 silly fetch manifest electron-to-chromium@^1.4.431
+283 silly fetch manifest node-releases@^2.0.12
+284 silly fetch manifest update-browserslist-db@^1.0.11
+285 silly placeDep ROOT camelcase@6.3.0 OK for: react-scripts@5.0.1 want: ^6.2.1
+286 silly placeDep ROOT case-sensitive-paths-webpack-plugin@2.4.0 OK for: react-scripts@5.0.1 want: ^2.4.0
+287 silly placeDep ROOT css-loader@6.8.1 OK for: react-scripts@5.0.1 want: ^6.5.1
+288 silly fetch manifest icss-utils@^5.1.0
+289 silly fetch manifest postcss@^8.4.21
+290 silly fetch manifest postcss-modules-extract-imports@^3.0.0
+291 silly fetch manifest postcss-modules-local-by-default@^4.0.3
+292 silly fetch manifest postcss-modules-scope@^3.0.0
+293 silly fetch manifest postcss-modules-values@^4.0.0
+294 silly fetch manifest postcss-value-parser@^4.2.0
+295 silly fetch manifest semver@^7.3.8
+296 silly placeDep ROOT css-minimizer-webpack-plugin@3.4.1 OK for: react-scripts@5.0.1 want: ^3.2.0
+297 silly fetch manifest cssnano@^5.0.6
+298 silly fetch manifest jest-worker@^27.0.2
+299 silly fetch manifest postcss@^8.3.5
+300 silly fetch manifest schema-utils@^4.0.0
+301 silly fetch manifest serialize-javascript@^6.0.0
+302 silly fetch manifest source-map@^0.6.1
+303 silly placeDep ROOT dotenv@10.0.0 OK for: react-scripts@5.0.1 want: ^10.0.0
+304 silly placeDep ROOT dotenv-expand@5.1.0 OK for: react-scripts@5.0.1 want: ^5.1.0
+305 silly placeDep ROOT eslint@8.44.0 OK for: react-scripts@5.0.1 want: ^8.3.0
+306 silly fetch manifest @eslint-community/eslint-utils@^4.2.0
+307 silly fetch manifest @eslint-community/regexpp@^4.4.0
+308 silly fetch manifest @eslint/eslintrc@^2.1.0
+309 silly fetch manifest @eslint/js@8.44.0
+310 silly fetch manifest @humanwhocodes/config-array@^0.11.10
+311 silly fetch manifest @humanwhocodes/module-importer@^1.0.1
+312 silly fetch manifest @nodelib/fs.walk@^1.2.8
+313 silly fetch manifest ajv@^6.10.0
+314 silly fetch manifest cross-spawn@^7.0.2
+315 silly fetch manifest debug@^4.3.2
+316 silly fetch manifest doctrine@^3.0.0
+317 silly fetch manifest escape-string-regexp@^4.0.0
+318 silly fetch manifest eslint-scope@^7.2.0
+319 silly fetch manifest eslint-visitor-keys@^3.4.1
+320 silly fetch manifest espree@^9.6.0
+321 silly fetch manifest esquery@^1.4.2
+322 silly fetch manifest esutils@^2.0.2
+323 silly fetch manifest fast-deep-equal@^3.1.3
+324 silly fetch manifest file-entry-cache@^6.0.1
+325 silly fetch manifest glob-parent@^6.0.2
+326 silly fetch manifest globals@^13.19.0
+327 silly fetch manifest graphemer@^1.4.0
+328 silly fetch manifest ignore@^5.2.0
+329 silly fetch manifest import-fresh@^3.0.0
+330 silly fetch manifest imurmurhash@^0.1.4
+331 silly fetch manifest is-glob@^4.0.0
+332 silly fetch manifest is-path-inside@^3.0.3
+333 silly fetch manifest js-yaml@^4.1.0
+334 silly fetch manifest json-stable-stringify-without-jsonify@^1.0.1
+335 silly fetch manifest levn@^0.4.1
+336 silly fetch manifest lodash.merge@^4.6.2
+337 silly fetch manifest minimatch@^3.1.2
+338 silly fetch manifest natural-compare@^1.4.0
+339 silly fetch manifest optionator@^0.9.3
+340 silly fetch manifest strip-ansi@^6.0.1
+341 silly fetch manifest strip-json-comments@^3.1.0
+342 silly fetch manifest text-table@^0.2.0
+343 silly placeDep ROOT eslint-config-react-app@7.0.1 OK for: react-scripts@5.0.1 want: ^7.0.1
+344 silly fetch manifest @babel/eslint-parser@^7.16.3
+345 silly fetch manifest @rushstack/eslint-patch@^1.1.0
+346 silly fetch manifest @typescript-eslint/eslint-plugin@^5.5.0
+347 silly fetch manifest @typescript-eslint/parser@^5.5.0
+348 silly fetch manifest confusing-browser-globals@^1.0.11
+349 silly fetch manifest eslint-plugin-flowtype@^8.0.3
+350 silly fetch manifest eslint-plugin-import@^2.25.3
+351 silly fetch manifest eslint-plugin-jest@^25.3.0
+352 silly fetch manifest eslint-plugin-jsx-a11y@^6.5.1
+353 silly fetch manifest eslint-plugin-react@^7.27.1
+354 silly fetch manifest eslint-plugin-react-hooks@^4.3.0
+355 silly fetch manifest eslint-plugin-testing-library@^5.0.1
+356 silly placeDep ROOT eslint-webpack-plugin@3.2.0 OK for: react-scripts@5.0.1 want: ^3.1.1
+357 silly fetch manifest @types/eslint@^7.29.0 || ^8.4.1
+358 silly fetch manifest jest-worker@^28.0.2
+359 silly fetch manifest micromatch@^4.0.5
+360 silly fetch manifest normalize-path@^3.0.0
+361 silly placeDep ROOT file-loader@6.2.0 OK for: react-scripts@5.0.1 want: ^6.2.0
+362 silly placeDep ROOT fs-extra@10.1.0 OK for: react-scripts@5.0.1 want: ^10.0.0
+363 silly fetch manifest graceful-fs@^4.2.0
+364 silly fetch manifest jsonfile@^6.0.1
+365 silly fetch manifest universalify@^2.0.0
+366 silly placeDep ROOT fsevents@2.3.2 OK for: react-scripts@5.0.1 want: ^2.3.2
+367 silly placeDep ROOT html-webpack-plugin@5.5.3 OK for: react-scripts@5.0.1 want: ^5.5.0
+368 silly fetch manifest @types/html-minifier-terser@^6.0.0
+369 silly fetch manifest html-minifier-terser@^6.0.2
+370 silly fetch manifest lodash@^4.17.21
+371 silly fetch manifest pretty-error@^4.0.0
+372 silly fetch manifest tapable@^2.0.0
+373 silly placeDep ROOT identity-obj-proxy@3.0.0 OK for: react-scripts@5.0.1 want: ^3.0.0
+374 silly fetch manifest harmony-reflect@^1.4.6
+375 silly placeDep ROOT jest@27.5.1 OK for: react-scripts@5.0.1 want: ^27.4.3
+376 silly fetch manifest @jest/core@^27.5.1
+377 silly fetch manifest import-local@^3.0.2
+378 silly fetch manifest jest-cli@^27.5.1
+379 silly placeDep ROOT jest-resolve@27.5.1 OK for: react-scripts@5.0.1 want: ^27.4.2
+380 silly fetch manifest jest-haste-map@^27.5.1
+381 silly fetch manifest jest-pnp-resolver@^1.2.2
+382 silly fetch manifest jest-util@^27.5.1
+383 silly fetch manifest jest-validate@^27.5.1
+384 silly fetch manifest resolve.exports@^1.1.0
+385 silly placeDep ROOT jest-watch-typeahead@1.1.0 OK for: react-scripts@5.0.1 want: ^1.0.0
+386 silly fetch manifest ansi-escapes@^4.3.1
+387 silly fetch manifest jest-regex-util@^28.0.0
+388 silly fetch manifest jest-watcher@^28.0.0
+389 silly fetch manifest slash@^4.0.0
+390 silly fetch manifest string-length@^5.0.1
+391 silly fetch manifest strip-ansi@^7.0.1
+392 silly placeDep ROOT mini-css-extract-plugin@2.7.6 OK for: react-scripts@5.0.1 want: ^2.4.5
+393 silly placeDep ROOT postcss@8.4.25 OK for: react-scripts@5.0.1 want: ^8.4.4
+394 silly fetch manifest nanoid@^3.3.6
+395 silly fetch manifest picocolors@^1.0.0
+396 silly fetch manifest source-map-js@^1.0.2
+397 silly placeDep ROOT postcss-flexbugs-fixes@5.0.2 OK for: react-scripts@5.0.1 want: ^5.0.2
+398 silly placeDep ROOT postcss-loader@6.2.1 OK for: react-scripts@5.0.1 want: ^6.2.1
+399 silly fetch manifest cosmiconfig@^7.0.0
+400 silly fetch manifest klona@^2.0.5
+401 silly placeDep ROOT postcss-normalize@10.0.1 OK for: react-scripts@5.0.1 want: ^10.0.1
+402 silly fetch manifest @csstools/normalize.css@*
+403 silly fetch manifest postcss-browser-comments@^4
+404 silly fetch manifest sanitize.css@*
+405 silly placeDep ROOT postcss-preset-env@7.8.3 OK for: react-scripts@5.0.1 want: ^7.0.1
+406 silly fetch manifest @csstools/postcss-cascade-layers@^1.1.1
+407 silly fetch manifest @csstools/postcss-color-function@^1.1.1
+408 silly fetch manifest @csstools/postcss-font-format-keywords@^1.0.1
+409 silly fetch manifest @csstools/postcss-hwb-function@^1.0.2
+410 silly fetch manifest @csstools/postcss-ic-unit@^1.0.1
+411 silly fetch manifest @csstools/postcss-is-pseudo-class@^2.0.7
+412 silly fetch manifest @csstools/postcss-nested-calc@^1.0.0
+413 silly fetch manifest @csstools/postcss-normalize-display-values@^1.0.1
+414 silly fetch manifest @csstools/postcss-oklab-function@^1.1.1
+415 silly fetch manifest @csstools/postcss-progressive-custom-properties@^1.3.0
+416 silly fetch manifest @csstools/postcss-stepped-value-functions@^1.0.1
+417 silly fetch manifest @csstools/postcss-text-decoration-shorthand@^1.0.0
+418 silly fetch manifest @csstools/postcss-trigonometric-functions@^1.0.2
+419 silly fetch manifest @csstools/postcss-unset-value@^1.0.2
+420 silly fetch manifest autoprefixer@^10.4.13
+421 silly fetch manifest css-blank-pseudo@^3.0.3
+422 silly fetch manifest css-has-pseudo@^3.0.4
+423 silly fetch manifest css-prefers-color-scheme@^6.0.3
+424 silly fetch manifest cssdb@^7.1.0
+425 silly fetch manifest postcss-attribute-case-insensitive@^5.0.2
+426 silly fetch manifest postcss-clamp@^4.1.0
+427 silly fetch manifest postcss-color-functional-notation@^4.2.4
+428 silly fetch manifest postcss-color-hex-alpha@^8.0.4
+429 silly fetch manifest postcss-color-rebeccapurple@^7.1.1
+430 silly fetch manifest postcss-custom-media@^8.0.2
+431 silly fetch manifest postcss-custom-properties@^12.1.10
+432 silly fetch manifest postcss-custom-selectors@^6.0.3
+433 silly fetch manifest postcss-dir-pseudo-class@^6.0.5
+434 silly fetch manifest postcss-double-position-gradients@^3.1.2
+435 silly fetch manifest postcss-env-function@^4.0.6
+436 silly fetch manifest postcss-focus-visible@^6.0.4
+437 silly fetch manifest postcss-focus-within@^5.0.4
+438 silly fetch manifest postcss-font-variant@^5.0.0
+439 silly fetch manifest postcss-gap-properties@^3.0.5
+440 silly fetch manifest postcss-image-set-function@^4.0.7
+441 silly fetch manifest postcss-initial@^4.0.1
+442 silly fetch manifest postcss-lab-function@^4.2.1
+443 silly fetch manifest postcss-logical@^5.0.4
+444 silly fetch manifest postcss-media-minmax@^5.0.0
+445 silly fetch manifest postcss-nesting@^10.2.0
+446 silly fetch manifest postcss-opacity-percentage@^1.1.2
+447 silly fetch manifest postcss-overflow-shorthand@^3.0.4
+448 silly fetch manifest postcss-page-break@^3.0.4
+449 silly fetch manifest postcss-place@^7.0.5
+450 silly fetch manifest postcss-pseudo-class-any-link@^7.1.6
+451 silly fetch manifest postcss-replace-overflow-wrap@^4.0.0
+452 silly fetch manifest postcss-selector-not@^6.0.1
+453 silly placeDep ROOT prompts@2.4.2 OK for: react-scripts@5.0.1 want: ^2.4.2
+454 silly fetch manifest kleur@^3.0.3
+455 silly fetch manifest sisteransi@^1.0.5
+456 silly placeDep ROOT react-app-polyfill@3.0.0 OK for: react-scripts@5.0.1 want: ^3.0.0
+457 silly fetch manifest core-js@^3.19.2
+458 silly fetch manifest object-assign@^4.1.1
+459 silly fetch manifest promise@^8.1.0
+460 silly fetch manifest raf@^3.4.1
+461 silly fetch manifest regenerator-runtime@^0.13.9
+462 silly fetch manifest whatwg-fetch@^3.6.2
+463 silly placeDep ROOT react-dev-utils@12.0.1 OK for: react-scripts@5.0.1 want: ^12.0.1
+464 silly fetch manifest @babel/code-frame@^7.16.0
+465 silly fetch manifest address@^1.1.2
+466 silly fetch manifest chalk@^4.1.2
+467 silly fetch manifest cross-spawn@^7.0.3
+468 silly fetch manifest detect-port-alt@^1.1.6
+469 silly fetch manifest filesize@^8.0.6
+470 silly fetch manifest fork-ts-checker-webpack-plugin@^6.5.0
+471 silly fetch manifest global-modules@^2.0.0
+472 silly fetch manifest globby@^11.0.4
+473 silly fetch manifest gzip-size@^6.0.0
+474 silly fetch manifest immer@^9.0.7
+475 silly fetch manifest is-root@^2.1.0
+476 silly fetch manifest loader-utils@^3.2.0
+477 silly fetch manifest open@^8.4.0
+478 silly fetch manifest pkg-up@^3.1.0
+479 silly fetch manifest react-error-overlay@^6.0.11
+480 silly fetch manifest recursive-readdir@^2.2.2
+481 silly fetch manifest shell-quote@^1.7.3
+482 silly placeDep ROOT resolve@1.22.2 OK for: react-scripts@5.0.1 want: ^1.20.0
+483 silly fetch manifest is-core-module@^2.11.0
+484 silly fetch manifest path-parse@^1.0.7
+485 silly fetch manifest supports-preserve-symlinks-flag@^1.0.0
+486 silly placeDep ROOT resolve-url-loader@4.0.0 OK for: react-scripts@5.0.1 want: ^4.0.0
+487 silly fetch manifest adjust-sourcemap-loader@^4.0.0
+488 silly fetch manifest postcss@^7.0.35
+489 silly fetch manifest source-map@0.6.1
+490 silly placeDep ROOT sass-loader@12.6.0 OK for: react-scripts@5.0.1 want: ^12.3.0
+491 silly fetch manifest klona@^2.0.4
+492 silly placeDep ROOT semver@7.5.3 OK for: react-scripts@5.0.1 want: ^7.3.5
+493 silly fetch manifest lru-cache@^6.0.0
+494 silly placeDep ROOT source-map-loader@3.0.2 OK for: react-scripts@5.0.1 want: ^3.0.0
+495 silly fetch manifest abab@^2.0.5
+496 silly fetch manifest iconv-lite@^0.6.3
+497 silly fetch manifest source-map-js@^1.0.1
+498 silly placeDep ROOT style-loader@3.3.3 OK for: react-scripts@5.0.1 want: ^3.3.1
+499 silly placeDep ROOT tailwindcss@3.3.2 OK for: react-scripts@5.0.1 want: ^3.0.2
+500 silly fetch manifest @alloc/quick-lru@^5.2.0
+501 silly fetch manifest arg@^5.0.2
+502 silly fetch manifest chokidar@^3.5.3
+503 silly fetch manifest didyoumean@^1.2.2
+504 silly fetch manifest dlv@^1.1.3
+505 silly fetch manifest fast-glob@^3.2.12
+506 silly fetch manifest is-glob@^4.0.3
+507 silly fetch manifest jiti@^1.18.2
+508 silly fetch manifest lilconfig@^2.1.0
+509 silly fetch manifest object-hash@^3.0.0
+510 silly fetch manifest postcss-import@^15.1.0
+511 silly fetch manifest postcss-js@^4.0.1
+512 silly fetch manifest postcss-load-config@^4.0.1
+513 silly fetch manifest postcss-nested@^6.0.1
+514 silly fetch manifest postcss-selector-parser@^6.0.11
+515 silly fetch manifest sucrase@^3.32.0
+516 silly placeDep ROOT terser-webpack-plugin@5.3.9 OK for: react-scripts@5.0.1 want: ^5.2.5
+517 silly fetch manifest @jridgewell/trace-mapping@^0.3.17
+518 silly fetch manifest jest-worker@^27.4.5
+519 silly fetch manifest schema-utils@^3.1.1
+520 silly fetch manifest serialize-javascript@^6.0.1
+521 silly fetch manifest terser@^5.16.8
+522 silly placeDep ROOT webpack-dev-server@4.15.1 OK for: react-scripts@5.0.1 want: ^4.6.0
+523 silly fetch manifest @types/bonjour@^3.5.9
+524 silly fetch manifest @types/connect-history-api-fallback@^1.3.5
+525 silly fetch manifest @types/express@^4.17.13
+526 silly fetch manifest @types/serve-index@^1.9.1
+527 silly fetch manifest @types/serve-static@^1.13.10
+528 silly fetch manifest @types/sockjs@^0.3.33
+529 silly fetch manifest @types/ws@^8.5.5
+530 silly fetch manifest bonjour-service@^1.0.11
+531 silly fetch manifest colorette@^2.0.10
+532 silly fetch manifest compression@^1.7.4
+533 silly fetch manifest connect-history-api-fallback@^2.0.0
+534 silly fetch manifest default-gateway@^6.0.3
+535 silly fetch manifest express@^4.17.3
+536 silly fetch manifest graceful-fs@^4.2.6
+537 silly fetch manifest html-entities@^2.3.2
+538 silly fetch manifest http-proxy-middleware@^2.0.3
+539 silly fetch manifest ipaddr.js@^2.0.1
+540 silly fetch manifest launch-editor@^2.6.0
+541 silly fetch manifest open@^8.0.9
+542 silly fetch manifest p-retry@^4.5.0
+543 silly fetch manifest rimraf@^3.0.2
+544 silly fetch manifest selfsigned@^2.1.1
+545 silly fetch manifest serve-index@^1.9.1
+546 silly fetch manifest sockjs@^0.3.24
+547 silly fetch manifest spdy@^4.0.2
+548 silly fetch manifest webpack-dev-middleware@^5.3.1
+549 silly fetch manifest ws@^8.13.0
+550 silly placeDep ROOT webpack-manifest-plugin@4.1.1 OK for: react-scripts@5.0.1 want: ^4.0.2
+551 silly fetch manifest webpack-sources@^2.2.0
+552 silly placeDep ROOT workbox-webpack-plugin@6.6.0 OK for: react-scripts@5.0.1 want: ^6.4.1
+553 silly fetch manifest fast-json-stable-stringify@^2.1.0
+554 silly fetch manifest pretty-bytes@^5.4.1
+555 silly fetch manifest upath@^1.2.0
+556 silly fetch manifest webpack-sources@^1.4.3
+557 silly fetch manifest workbox-build@6.6.0
+558 http fetch GET 200 https://registry.npmjs.org/@ampproject%2fremapping 5908ms (cache miss)
+559 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelpers 5889ms (cache miss)
+560 http fetch GET 200 https://registry.npmjs.org/@babel%2fparser 5898ms (cache miss)
+561 http fetch GET 200 https://registry.npmjs.org/@babel%2ftemplate 5955ms (cache miss)
+562 http fetch GET 200 https://registry.npmjs.org/@babel%2ftraverse 6113ms (cache miss)
+563 http fetch GET 200 https://registry.npmjs.org/@babel%2ftypes 6248ms (cache miss)
+564 http fetch GET 200 https://registry.npmjs.org/@nicolo-ribaudo%2fsemver-v6 6408ms (cache miss)
+565 http fetch GET 200 https://registry.npmjs.org/gensync 6448ms (cache miss)
+566 http fetch GET 200 https://registry.npmjs.org/convert-source-map 6566ms (cache miss)
+567 http fetch GET 200 https://registry.npmjs.org/common-path-prefix 6824ms (cache miss)
+568 http fetch GET 200 https://registry.npmjs.org/core-js-pure 7049ms (cache miss)
+569 http fetch GET 200 https://registry.npmjs.org/error-stack-parser 8312ms (cache miss)
+570 http fetch GET 200 https://registry.npmjs.org/find-up 8382ms (cache miss)
+571 http fetch GET 200 https://registry.npmjs.org/json5 8575ms (cache miss)
+572 http fetch GET 200 https://registry.npmjs.org/html-entities 9639ms (cache miss)
+573 http fetch GET 200 https://registry.npmjs.org/source-map 9714ms (cache miss)
+574 http fetch GET 200 https://registry.npmjs.org/ansi-html-community 9882ms (cache miss)
+575 http fetch GET 200 https://registry.npmjs.org/loader-utils 10364ms (cache miss)
+576 http fetch GET 200 https://registry.npmjs.org/@types%2festree 10464ms (cache miss)
+577 http fetch GET 200 https://registry.npmjs.org/@types%2feslint-scope 17028ms (cache miss)
+578 http fetch GET 200 https://registry.npmjs.org/schema-utils 18121ms (cache miss)
+579 http fetch GET 200 https://registry.npmjs.org/acorn-import-assertions 18754ms (cache miss)
+580 http fetch GET 200 https://registry.npmjs.org/chrome-trace-event 19486ms (cache miss)
+581 http fetch GET 200 https://registry.npmjs.org/enhanced-resolve 20722ms (cache miss)
+582 http fetch GET 200 https://registry.npmjs.org/@webassemblyjs%2fwasm-edit 23687ms (cache miss)
+583 http fetch GET 200 https://registry.npmjs.org/acorn 24800ms (cache miss)
+584 http fetch GET 200 https://registry.npmjs.org/@webassemblyjs%2fwasm-parser 25760ms (cache miss)
+585 http fetch GET 200 https://registry.npmjs.org/events 26283ms (cache miss)
+586 http fetch GET 200 https://registry.npmjs.org/es-module-lexer 27136ms (cache miss)
+587 http fetch GET 200 https://registry.npmjs.org/json-parse-even-better-errors 27612ms (cache miss)
+588 http fetch GET 200 https://registry.npmjs.org/eslint-scope 28346ms (cache miss)
+589 http fetch GET 200 https://registry.npmjs.org/glob-to-regexp 28952ms (cache miss)
+590 http fetch GET 200 https://registry.npmjs.org/neo-async 29751ms (cache miss)
+591 http fetch GET 200 https://registry.npmjs.org/schema-utils 30619ms (cache miss)
+592 http fetch GET 200 https://registry.npmjs.org/loader-runner 31284ms (cache miss)
+593 http fetch GET 200 https://registry.npmjs.org/mime-types 31960ms (cache miss)
+594 http fetch GET 200 https://registry.npmjs.org/watchpack 32678ms (cache miss)
+595 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-react-constant-elements 33545ms (cache miss)
+596 http fetch GET 200 https://registry.npmjs.org/webpack-sources 34641ms (cache miss)
+597 http fetch GET 200 https://registry.npmjs.org/tapable 35402ms (cache miss)
+598 http fetch GET 200 https://registry.npmjs.org/@babel%2fpreset-env 41779ms (cache miss)
+599 http fetch GET 200 https://registry.npmjs.org/@babel%2fpreset-react 43247ms (cache miss)
+600 http fetch GET 200 https://registry.npmjs.org/loader-utils 44556ms (cache miss)
+601 http fetch GET 200 https://registry.npmjs.org/@svgr%2fplugin-jsx 45618ms (cache miss)
+602 http fetch GET 200 https://registry.npmjs.org/@svgr%2fcore 48582ms (cache miss)
+603 http fetch GET 200 https://registry.npmjs.org/@svgr%2fplugin-svgo 49275ms (cache miss)
+604 http fetch GET 200 https://registry.npmjs.org/@jest%2ftypes 50754ms (cache miss)
+605 http fetch GET 200 https://registry.npmjs.org/@jest%2ftransform 55545ms (cache miss)
+606 http fetch GET 200 https://registry.npmjs.org/babel-plugin-istanbul 56549ms (cache miss)
+607 http fetch GET 200 https://registry.npmjs.org/@types%2fbabel__core 57357ms (cache miss)
+608 http fetch GET 200 https://registry.npmjs.org/slash 57854ms (cache miss)
+609 http fetch GET 200 https://registry.npmjs.org/find-cache-dir 58422ms (cache miss)
+610 http fetch GET 200 https://registry.npmjs.org/make-dir 60097ms (cache miss)
+611 http fetch GET 200 https://registry.npmjs.org/schema-utils 61249ms (cache miss)
+612 timing npm Completed in 219329ms
+613 verbose unfinished npm timer command:install 1688764030380
+614 verbose unfinished npm timer reify 1688764030493
+615 verbose unfinished npm timer reify:loadTrees 1688764030628
+616 verbose unfinished npm timer idealTree 1688764030637
+617 verbose unfinished npm timer idealTree:buildDeps 1688764030817
+618 verbose unfinished npm timer idealTree:node_modules/react-scripts 1688764054518
+619 info ok
+620 error Exit handler never called!
+621 error This is an error with npm itself. Please report this error at:
+622 error     <https://github.com/npm/cli/issues>
+623 error A complete log of this run can be found in: /data/data/com.termux/files/home/.npm/_logs/2023-07-07T21_07_00_950Z-debug-0.log

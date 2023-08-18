@@ -1,0 +1,99 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@9.6.6
+2 info using node@v20.2.0
+3 timing npm:load:whichnode Completed in 17ms
+4 timing config:load:defaults Completed in 15ms
+5 timing config:load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc Completed in 3ms
+6 timing config:load:builtin Completed in 6ms
+7 timing config:load:cli Completed in 14ms
+8 timing config:load:env Completed in 2ms
+9 timing config:load:file:/storage/emulated/0/.npmrc Completed in 1ms
+10 timing config:load:project Completed in 12ms
+11 timing config:load:file:/data/data/com.termux/files/home/.npmrc Completed in 12ms
+12 timing config:load:user Completed in 15ms
+13 timing config:load:file:/data/data/com.termux/files/usr/etc/npmrc Completed in 1ms
+14 timing config:load:global Completed in 2ms
+15 timing config:load:setEnvs Completed in 7ms
+16 timing config:load Completed in 82ms
+17 timing npm:load:configload Completed in 83ms
+18 timing npm:load:mkdirpcache Completed in 1ms
+19 timing npm:load:mkdirplogs Completed in 1ms
+20 verbose title npm install yarn
+21 verbose argv "install" "yarn"
+22 timing npm:load:setTitle Completed in 8ms
+23 timing config:load:flatten Completed in 22ms
+24 timing npm:load:display Completed in 27ms
+25 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2023-08-17T00_27_26_057Z-
+26 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2023-08-17T00_27_26_057Z-debug-0.log
+27 timing npm:load:logFile Completed in 67ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 1ms
+30 timing npm:load Completed in 212ms
+31 timing config:load:flatten Completed in 6ms
+32 timing arborist:ctor Completed in 6ms
+33 silly logfile done cleaning log files
+34 timing arborist:ctor Completed in 0ms
+35 timing idealTree:init Completed in 118ms
+36 timing idealTree:userRequests Completed in 27ms
+37 silly idealTree buildDeps
+38 silly fetch manifest yarn@*
+39 http fetch GET 200 https://registry.npmjs.org/yarn 980ms (cache miss)
+40 silly placeDep ROOT yarn@1.22.19 OK for:  want: *
+41 timing idealTree:#root Completed in 1112ms
+42 timing idealTree:node_modules/yarn Completed in 0ms
+43 timing idealTree:buildDeps Completed in 1122ms
+44 timing idealTree:fixDepFlags Completed in 5ms
+45 timing idealTree Completed in 1282ms
+46 timing reify:loadTrees Completed in 1290ms
+47 timing reify:diffTrees Completed in 9ms
+48 silly reify moves {}
+49 timing reify:retireShallow Completed in 14ms
+50 timing reify:createSparse Completed in 18ms
+51 timing reify:loadBundles Completed in 0ms
+52 silly tarball no local data for yarn@https://registry.npmjs.org/yarn/-/yarn-1.22.19.tgz. Extracting by manifest.
+53 http fetch GET 200 https://registry.npmjs.org/yarn/-/yarn-1.22.19.tgz 1042ms (cache miss)
+54 timing reifyNode:node_modules/yarn Completed in 1112ms
+55 timing reify:unpack Completed in 1114ms
+56 timing reify:unretire Completed in 1ms
+57 timing build:queue Completed in 17ms
+58 info run yarn@1.22.19 preinstall node_modules/yarn :; (node ./preinstall.js > /dev/null 2>&1 || true)
+59 info run yarn@1.22.19 preinstall { code: 0, signal: null }
+60 timing build:run:preinstall:node_modules/yarn Completed in 1703ms
+61 timing build:run:preinstall Completed in 1708ms
+62 timing reify:rollback:createSparse Completed in 36ms
+63 timing reify:rollback:retireShallow Completed in 0ms
+64 timing command:install Completed in 4348ms
+65 verbose stack Error: EPERM: operation not permitted, symlink '../yarn/bin/yarn.js' -> '/storage/emulated/0/node_modules/.bin/yarn'
+66 verbose cwd /storage/emulated/0
+67 verbose Linux 4.9.190-perf-ge23fb46
+68 verbose node v20.2.0
+69 verbose npm  v9.6.6
+70 error code EPERM
+71 error syscall symlink
+72 error path ../yarn/bin/yarn.js
+73 error dest /storage/emulated/0/node_modules/.bin/yarn
+74 error errno -1
+75 error [Error: EPERM: operation not permitted, symlink '../yarn/bin/yarn.js' -> '/storage/emulated/0/node_modules/.bin/yarn'] {
+75 error   errno: -1,
+75 error   code: 'EPERM',
+75 error   syscall: 'symlink',
+75 error   path: '../yarn/bin/yarn.js',
+75 error   dest: '/storage/emulated/0/node_modules/.bin/yarn'
+75 error }
+76 error
+76 error The operation was rejected by your operating system.
+76 error It is likely you do not have the permissions to access this file as the current user
+76 error
+76 error If you believe this might be a permissions issue, please double-check the
+76 error permissions of the file and its containing directories, or try running
+76 error the command again as root/Administrator.
+77 verbose exit -1
+78 timing npm Completed in 6803ms
+79 verbose unfinished npm timer reify 1692232048580
+80 verbose unfinished npm timer reify:build 1692232051061
+81 verbose unfinished npm timer build 1692232051064
+82 verbose unfinished npm timer build:deps 1692232051065
+83 verbose unfinished npm timer build:link 1692232052793
+84 verbose unfinished npm timer build:link:node_modules/yarn 1692232052794
+85 verbose code -1
+86 error A complete log of this run can be found in: /data/data/com.termux/files/home/.npm/_logs/2023-08-17T00_27_26_057Z-debug-0.log

@@ -1,0 +1,36 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@9.6.6
+2 info using node@v20.2.0
+3 timing npm:load:whichnode Completed in 7ms
+4 timing config:load:defaults Completed in 11ms
+5 timing config:load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 4ms
+7 timing config:load:cli Completed in 12ms
+8 timing config:load:env Completed in 2ms
+9 timing config:load:file:/storage/emulated/0/Tailwind/.npmrc Completed in 1ms
+10 timing config:load:project Completed in 18ms
+11 timing config:load:file:/data/data/com.termux/files/home/.npmrc Completed in 13ms
+12 timing config:load:user Completed in 14ms
+13 timing config:load:file:/data/data/com.termux/files/usr/etc/npmrc Completed in 1ms
+14 timing config:load:global Completed in 2ms
+15 timing config:load:setEnvs Completed in 6ms
+16 timing config:load Completed in 73ms
+17 timing npm:load:configload Completed in 73ms
+18 timing npm:load:mkdirpcache Completed in 2ms
+19 timing npm:load:mkdirplogs Completed in 2ms
+20 verbose title npm exec tailwindcss init
+21 verbose argv "exec" "--" "tailwindcss" "init"
+22 timing npm:load:setTitle Completed in 7ms
+23 timing config:load:flatten Completed in 15ms
+24 timing npm:load:display Completed in 20ms
+25 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2023-08-16T09_59_40_732Z-
+26 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2023-08-16T09_59_40_732Z-debug-0.log
+27 timing npm:load:logFile Completed in 56ms
+28 timing npm:load:timers Completed in 1ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 173ms
+31 silly logfile done cleaning log files
+32 timing command:exec Completed in 4194ms
+33 verbose exit 0
+34 timing npm Completed in 6256ms
+35 info ok

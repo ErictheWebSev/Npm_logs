@@ -1,0 +1,134 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@9.6.6
+2 info using node@v20.2.0
+3 timing npm:load:whichnode Completed in 7ms
+4 timing config:load:defaults Completed in 8ms
+5 timing config:load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 4ms
+7 timing config:load:cli Completed in 11ms
+8 timing config:load:env Completed in 2ms
+9 timing config:load:file:/storage/emulated/0/testproj/.npmrc Completed in 1ms
+10 timing config:load:project Completed in 13ms
+11 timing config:load:file:/data/data/com.termux/files/home/.npmrc Completed in 11ms
+12 timing config:load:user Completed in 13ms
+13 timing config:load:file:/data/data/com.termux/files/usr/etc/npmrc Completed in 1ms
+14 timing config:load:global Completed in 2ms
+15 timing config:load:setEnvs Completed in 5ms
+16 timing config:load Completed in 61ms
+17 timing npm:load:configload Completed in 63ms
+18 timing npm:load:mkdirpcache Completed in 2ms
+19 timing npm:load:mkdirplogs Completed in 2ms
+20 verbose title npm install react react-dom
+21 verbose argv "install" "react" "react-dom"
+22 timing npm:load:setTitle Completed in 7ms
+23 timing config:load:flatten Completed in 14ms
+24 timing npm:load:display Completed in 19ms
+25 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2023-08-17T00_36_35_887Z-
+26 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2023-08-17T00_36_35_887Z-debug-0.log
+27 timing npm:load:logFile Completed in 54ms
+28 timing npm:load:timers Completed in 1ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 160ms
+31 timing arborist:ctor Completed in 5ms
+32 silly logfile done cleaning log files
+33 timing arborist:ctor Completed in 0ms
+34 timing idealTree:init Completed in 108ms
+35 timing idealTree:userRequests Completed in 26ms
+36 silly idealTree buildDeps
+37 silly fetch manifest react@*
+38 http fetch GET 200 https://registry.npmjs.org/react 1521ms (cache miss)
+39 silly fetch manifest react-dom@*
+40 http fetch GET 200 https://registry.npmjs.org/react-dom 429ms (cache miss)
+41 silly placeDep ROOT react@18.2.0 OK for: testproj@1.0.0 want: *
+42 silly fetch manifest loose-envify@^1.1.0
+43 silly placeDep ROOT react-dom@18.2.0 OK for: testproj@1.0.0 want: *
+44 silly fetch manifest scheduler@^0.23.0
+45 http fetch GET 200 https://registry.npmjs.org/loose-envify 211ms (cache miss)
+46 http fetch GET 200 https://registry.npmjs.org/scheduler 646ms (cache miss)
+47 timing idealTree:#root Completed in 2943ms
+48 silly placeDep ROOT loose-envify@1.4.0 OK for: react@18.2.0 want: ^1.1.0
+49 silly fetch manifest js-tokens@^3.0.0 || ^4.0.0
+50 http fetch GET 200 https://registry.npmjs.org/js-tokens 181ms (cache miss)
+51 timing idealTree:node_modules/react Completed in 224ms
+52 silly placeDep ROOT js-tokens@4.0.0 OK for: loose-envify@1.4.0 want: ^3.0.0 || ^4.0.0
+53 timing idealTree:node_modules/loose-envify Completed in 20ms
+54 timing idealTree:node_modules/js-tokens Completed in 0ms
+55 silly placeDep ROOT scheduler@0.23.0 OK for: react-dom@18.2.0 want: ^0.23.0
+56 timing idealTree:node_modules/react-dom Completed in 17ms
+57 timing idealTree:node_modules/scheduler Completed in 0ms
+58 timing idealTree:buildDeps Completed in 3214ms
+59 timing idealTree:fixDepFlags Completed in 4ms
+60 timing idealTree Completed in 3360ms
+61 timing reify:loadTrees Completed in 3367ms
+62 timing reify:diffTrees Completed in 6ms
+63 silly reify moves {}
+64 timing reify:retireShallow Completed in 6ms
+65 timing reify:createSparse Completed in 10ms
+66 timing reify:loadBundles Completed in 0ms
+67 silly audit bulk request {
+67 silly audit   react: [ '18.2.0' ],
+67 silly audit   'react-dom': [ '18.2.0' ],
+67 silly audit   'loose-envify': [ '1.4.0' ],
+67 silly audit   'js-tokens': [ '4.0.0' ],
+67 silly audit   scheduler: [ '0.23.0' ]
+67 silly audit }
+68 silly tarball no local data for scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.23.0.tgz. Extracting by manifest.
+69 silly tarball no local data for loose-envify@https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz. Extracting by manifest.
+70 silly tarball no local data for js-tokens@https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz. Extracting by manifest.
+71 silly tarball no local data for react-dom@https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz. Extracting by manifest.
+72 silly tarball no local data for react@https://registry.npmjs.org/react/-/react-18.2.0.tgz. Extracting by manifest.
+73 http fetch GET 200 https://registry.npmjs.org/scheduler/-/scheduler-0.23.0.tgz 249ms (cache miss)
+74 timing reifyNode:node_modules/scheduler Completed in 315ms
+75 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 480ms
+76 timing auditReport:getReport Completed in 488ms
+77 silly audit report {}
+78 timing auditReport:init Completed in 0ms
+79 timing reify:audit Completed in 494ms
+80 http fetch GET 200 https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz 481ms (cache miss)
+81 timing reifyNode:node_modules/js-tokens Completed in 551ms
+82 http fetch GET 200 https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 714ms (cache miss)
+83 timing reifyNode:node_modules/loose-envify Completed in 781ms
+84 http fetch GET 200 https://registry.npmjs.org/react/-/react-18.2.0.tgz 733ms (cache miss)
+85 timing reifyNode:node_modules/react Completed in 820ms
+86 http fetch GET 200 https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz 1112ms (cache miss)
+87 timing reifyNode:node_modules/react-dom Completed in 1194ms
+88 timing reify:unpack Completed in 1198ms
+89 timing reify:unretire Completed in 1ms
+90 timing build:queue Completed in 4ms
+91 timing reify:rollback:createSparse Completed in 36ms
+92 timing reify:rollback:retireShallow Completed in 0ms
+93 timing command:install Completed in 4723ms
+94 verbose stack Error: EPERM: operation not permitted, symlink '../loose-envify/cli.js' -> '/storage/emulated/0/testproj/node_modules/.bin/loose-envify'
+95 verbose cwd /storage/emulated/0/testproj
+96 verbose Linux 4.9.190-perf-ge23fb46
+97 verbose node v20.2.0
+98 verbose npm  v9.6.6
+99 error code EPERM
+100 error syscall symlink
+101 error path ../loose-envify/cli.js
+102 error dest /storage/emulated/0/testproj/node_modules/.bin/loose-envify
+103 error errno -1
+104 error [Error: EPERM: operation not permitted, symlink '../loose-envify/cli.js' -> '/storage/emulated/0/testproj/node_modules/.bin/loose-envify'] {
+104 error   errno: -1,
+104 error   code: 'EPERM',
+104 error   syscall: 'symlink',
+104 error   path: '../loose-envify/cli.js',
+104 error   dest: '/storage/emulated/0/testproj/node_modules/.bin/loose-envify'
+104 error }
+105 error
+105 error The operation was rejected by your operating system.
+105 error It is likely you do not have the permissions to access this file as the current user
+105 error
+105 error If you believe this might be a permissions issue, please double-check the
+105 error permissions of the file and its containing directories, or try running
+105 error the command again as root/Administrator.
+106 verbose exit -1
+107 timing npm Completed in 6997ms
+108 verbose unfinished npm timer reify 1692232598174
+109 verbose unfinished npm timer reify:build 1692232602817
+110 verbose unfinished npm timer build 1692232602820
+111 verbose unfinished npm timer build:deps 1692232602821
+112 verbose unfinished npm timer build:link 1692232602828
+113 verbose unfinished npm timer build:link:node_modules/loose-envify 1692232602828
+114 verbose code -1
+115 error A complete log of this run can be found in: /data/data/com.termux/files/home/.npm/_logs/2023-08-17T00_36_35_887Z-debug-0.log

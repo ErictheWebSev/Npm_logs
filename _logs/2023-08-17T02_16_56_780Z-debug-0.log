@@ -1,0 +1,77 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@9.6.6
+2 info using node@v20.2.0
+3 timing npm:load:whichnode Completed in 30ms
+4 timing config:load:defaults Completed in 12ms
+5 timing config:load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc Completed in 4ms
+6 timing config:load:builtin Completed in 5ms
+7 timing config:load:cli Completed in 14ms
+8 timing config:load:env Completed in 3ms
+9 timing config:load:file:/storage/emulated/0/.npmrc Completed in 2ms
+10 timing config:load:project Completed in 25ms
+11 timing config:load:file:/data/data/com.termux/files/home/.npmrc Completed in 14ms
+12 timing config:load:user Completed in 17ms
+13 timing config:load:file:/data/data/com.termux/files/usr/etc/npmrc Completed in 2ms
+14 timing config:load:global Completed in 3ms
+15 timing config:load:setEnvs Completed in 7ms
+16 timing config:load Completed in 91ms
+17 timing npm:load:configload Completed in 93ms
+18 timing npm:load:mkdirpcache Completed in 4ms
+19 timing npm:load:mkdirplogs Completed in 3ms
+20 verbose title npm create vue@latest
+21 verbose argv "create" "vue@latest"
+22 timing npm:load:setTitle Completed in 8ms
+23 timing config:load:flatten Completed in 20ms
+24 timing npm:load:display Completed in 25ms
+25 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2023-08-17T02_16_56_780Z-
+26 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2023-08-17T02_16_56_780Z-debug-0.log
+27 timing npm:load:logFile Completed in 69ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 239ms
+31 silly logfile done cleaning log files
+32 timing arborist:ctor Completed in 6ms
+33 http fetch GET 200 https://registry.npmjs.org/create-vue 1559ms (cache miss)
+34 timing arborist:ctor Completed in 1ms
+35 timing arborist:ctor Completed in 0ms
+36 timing idealTree:init Completed in 84ms
+37 timing idealTree:userRequests Completed in 13ms
+38 silly idealTree buildDeps
+39 silly fetch manifest create-vue@3.7.2
+40 http fetch GET 200 https://registry.npmjs.org/create-vue 50ms (cache hit)
+41 silly placeDep ROOT create-vue@3.7.2 OK for:  want: 3.7.2
+42 timing idealTree:#root Completed in 97ms
+43 timing idealTree:node_modules/create-vue Completed in 1ms
+44 timing idealTree:buildDeps Completed in 106ms
+45 timing idealTree:fixDepFlags Completed in 3ms
+46 timing idealTree Completed in 218ms
+47 timing reify:loadTrees Completed in 223ms
+48 timing reify:diffTrees Completed in 4ms
+49 silly reify moves {}
+50 timing reify:retireShallow Completed in 6ms
+51 timing reify:createSparse Completed in 20ms
+52 timing reify:loadBundles Completed in 0ms
+53 silly audit bulk request { 'create-vue': [ '3.7.2' ] }
+54 silly tarball no local data for create-vue@https://registry.npmjs.org/create-vue/-/create-vue-3.7.2.tgz. Extracting by manifest.
+55 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 430ms
+56 timing auditReport:getReport Completed in 439ms
+57 silly audit report {}
+58 timing auditReport:init Completed in 0ms
+59 timing reify:audit Completed in 445ms
+60 http fetch GET 200 https://registry.npmjs.org/create-vue/-/create-vue-3.7.2.tgz 921ms (cache miss)
+61 timing reifyNode:node_modules/create-vue Completed in 982ms
+62 timing reify:unpack Completed in 984ms
+63 timing reify:unretire Completed in 1ms
+64 timing build:queue Completed in 2ms
+65 timing build:link:node_modules/create-vue Completed in 15ms
+66 timing build:link Completed in 15ms
+67 timing build:deps Completed in 18ms
+68 timing build Completed in 20ms
+69 timing reify:build Completed in 22ms
+70 timing reify:trash Completed in 1ms
+71 timing reify:save Completed in 28ms
+72 timing reify Completed in 1338ms
+73 timing command:create Completed in 40947ms
+74 verbose exit 0
+75 timing npm Completed in 43978ms
+76 info ok

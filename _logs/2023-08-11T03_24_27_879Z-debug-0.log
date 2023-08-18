@@ -1,0 +1,72 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@9.6.6
+2 info using node@v20.2.0
+3 timing npm:load:whichnode Completed in 11ms
+4 timing config:load:defaults Completed in 14ms
+5 timing config:load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc Completed in 3ms
+6 timing config:load:builtin Completed in 5ms
+7 timing config:load:cli Completed in 20ms
+8 timing config:load:env Completed in 2ms
+9 timing config:load:project Completed in 14ms
+10 timing config:load:file:/data/data/com.termux/files/home/.npmrc Completed in 14ms
+11 timing config:load:user Completed in 16ms
+12 timing config:load:file:/data/data/com.termux/files/usr/etc/npmrc Completed in 1ms
+13 timing config:load:global Completed in 3ms
+14 timing config:load:setEnvs Completed in 6ms
+15 timing config:load Completed in 87ms
+16 timing npm:load:configload Completed in 88ms
+17 timing npm:load:mkdirpcache Completed in 3ms
+18 timing npm:load:mkdirplogs Completed in 9ms
+19 verbose title npm install yarn
+20 verbose argv "install" "--global" "yarn"
+21 timing npm:load:setTitle Completed in 11ms
+22 timing config:load:flatten Completed in 21ms
+23 timing npm:load:display Completed in 26ms
+24 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2023-08-11T03_24_27_879Z-
+25 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2023-08-11T03_24_27_879Z-debug-0.log
+26 timing npm:load:logFile Completed in 65ms
+27 timing npm:load:timers Completed in 0ms
+28 timing npm:load:configScope Completed in 1ms
+29 timing npm:load Completed in 218ms
+30 timing config:load:flatten Completed in 8ms
+31 timing arborist:ctor Completed in 7ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 38ms
+34 timing idealTree:userRequests Completed in 22ms
+35 silly idealTree buildDeps
+36 silly fetch manifest yarn@*
+37 http fetch GET 200 https://registry.npmjs.org/yarn 1681ms (cache miss)
+38 silly placeDep ROOT yarn@1.22.19 OK for:  want: *
+39 timing idealTree:#root Completed in 1748ms
+40 timing idealTree:node_modules/yarn Completed in 1ms
+41 timing idealTree:buildDeps Completed in 1755ms
+42 timing idealTree:fixDepFlags Completed in 3ms
+43 timing idealTree Completed in 1829ms
+44 timing reify:loadTrees Completed in 1847ms
+45 timing reify:diffTrees Completed in 7ms
+46 silly reify moves {}
+47 timing reify:retireShallow Completed in 8ms
+48 timing reify:createSparse Completed in 3ms
+49 timing reify:loadBundles Completed in 0ms
+50 silly tarball no local data for yarn@https://registry.npmjs.org/yarn/-/yarn-1.22.19.tgz. Extracting by manifest.
+51 http fetch GET 200 https://registry.npmjs.org/yarn/-/yarn-1.22.19.tgz 667ms (cache miss)
+52 timing reifyNode:node_modules/yarn Completed in 711ms
+53 timing reify:unpack Completed in 713ms
+54 timing reify:unretire Completed in 1ms
+55 timing build:queue Completed in 11ms
+56 info run yarn@1.22.19 preinstall node_modules/yarn :; (node ./preinstall.js > /dev/null 2>&1 || true)
+57 info run yarn@1.22.19 preinstall { code: 0, signal: null }
+58 timing build:run:preinstall:node_modules/yarn Completed in 3478ms
+59 timing build:run:preinstall Completed in 3480ms
+60 timing build:link:node_modules/yarn Completed in 23ms
+61 timing build:link Completed in 24ms
+62 timing build:deps Completed in 3520ms
+63 timing build Completed in 3521ms
+64 timing reify:build Completed in 3523ms
+65 timing reify:trash Completed in 0ms
+66 timing reify Completed in 6143ms
+67 silly ADD node_modules/yarn
+68 timing command:install Completed in 6193ms
+69 verbose exit 0
+70 timing npm Completed in 8906ms
+71 info ok

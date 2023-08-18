@@ -1,0 +1,68 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@9.6.6
+2 info using node@v20.2.0
+3 timing npm:load:whichnode Completed in 7ms
+4 timing config:load:defaults Completed in 11ms
+5 timing config:load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc Completed in 4ms
+6 timing config:load:builtin Completed in 6ms
+7 timing config:load:cli Completed in 20ms
+8 timing config:load:env Completed in 2ms
+9 timing config:load:project Completed in 60ms
+10 timing config:load:file:/data/data/com.termux/files/home/.npmrc Completed in 16ms
+11 timing config:load:user Completed in 18ms
+12 timing config:load:file:/data/data/com.termux/files/usr/etc/npmrc Completed in 2ms
+13 timing config:load:global Completed in 3ms
+14 timing config:load:setEnvs Completed in 9ms
+15 timing config:load Completed in 137ms
+16 timing npm:load:configload Completed in 139ms
+17 timing npm:load:mkdirpcache Completed in 3ms
+18 timing npm:load:mkdirplogs Completed in 3ms
+19 verbose title npm install create-vite
+20 verbose argv "install" "--global" "create-vite"
+21 timing npm:load:setTitle Completed in 9ms
+22 timing config:load:flatten Completed in 18ms
+23 timing npm:load:display Completed in 23ms
+24 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2023-08-17T21_28_54_154Z-
+25 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2023-08-17T21_28_54_154Z-debug-0.log
+26 timing npm:load:logFile Completed in 80ms
+27 timing npm:load:timers Completed in 1ms
+28 timing npm:load:configScope Completed in 1ms
+29 timing npm:load Completed in 269ms
+30 timing config:load:flatten Completed in 6ms
+31 timing arborist:ctor Completed in 5ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 40ms
+34 timing idealTree:userRequests Completed in 23ms
+35 silly idealTree buildDeps
+36 silly fetch manifest create-vite@*
+37 http fetch GET 200 https://registry.npmjs.org/create-vite 5736ms (cache miss)
+38 silly placeDep ROOT create-vite@4.4.1 OK for:  want: *
+39 timing idealTree:#root Completed in 5806ms
+40 timing idealTree:node_modules/create-vite Completed in 0ms
+41 timing idealTree:buildDeps Completed in 5815ms
+42 timing idealTree:fixDepFlags Completed in 3ms
+43 timing idealTree Completed in 5896ms
+44 timing reify:loadTrees Completed in 5912ms
+45 timing reify:diffTrees Completed in 8ms
+46 silly reify moves {}
+47 timing reify:retireShallow Completed in 8ms
+48 timing reify:createSparse Completed in 3ms
+49 timing reify:loadBundles Completed in 0ms
+50 silly tarball no local data for create-vite@https://registry.npmjs.org/create-vite/-/create-vite-4.4.1.tgz. Extracting by manifest.
+51 http fetch GET 200 https://registry.npmjs.org/create-vite/-/create-vite-4.4.1.tgz 1040ms (cache miss)
+52 timing reifyNode:node_modules/create-vite Completed in 1098ms
+53 timing reify:unpack Completed in 1101ms
+54 timing reify:unretire Completed in 1ms
+55 timing build:queue Completed in 8ms
+56 timing build:link:node_modules/create-vite Completed in 19ms
+57 timing build:link Completed in 19ms
+58 timing build:deps Completed in 30ms
+59 timing build Completed in 31ms
+60 timing reify:build Completed in 33ms
+61 timing reify:trash Completed in 0ms
+62 timing reify Completed in 7113ms
+63 silly ADD node_modules/create-vite
+64 timing command:install Completed in 7162ms
+65 verbose exit 0
+66 timing npm Completed in 9512ms
+67 info ok

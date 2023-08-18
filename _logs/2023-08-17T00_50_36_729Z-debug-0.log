@@ -1,0 +1,589 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@9.6.6
+2 info using node@v20.2.0
+3 timing npm:load:whichnode Completed in 8ms
+4 timing config:load:defaults Completed in 10ms
+5 timing config:load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc Completed in 3ms
+6 timing config:load:builtin Completed in 4ms
+7 timing config:load:cli Completed in 15ms
+8 timing config:load:env Completed in 2ms
+9 timing config:load:project Completed in 13ms
+10 timing config:load:file:/data/data/com.termux/files/home/.npmrc Completed in 9ms
+11 timing config:load:user Completed in 9ms
+12 timing config:load:file:/data/data/com.termux/files/usr/etc/npmrc Completed in 1ms
+13 timing config:load:global Completed in 3ms
+14 timing config:load:setEnvs Completed in 6ms
+15 timing config:load Completed in 68ms
+16 timing npm:load:configload Completed in 69ms
+17 timing npm:load:mkdirpcache Completed in 3ms
+18 timing npm:load:mkdirplogs Completed in 3ms
+19 verbose title npm audit fix
+20 verbose argv "audit" "fix" "--force"
+21 timing npm:load:setTitle Completed in 8ms
+22 timing config:load:flatten Completed in 16ms
+23 timing npm:load:display Completed in 21ms
+24 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2023-08-17T00_50_36_729Z-
+25 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2023-08-17T00_50_36_729Z-debug-0.log
+26 timing npm:load:logFile Completed in 56ms
+27 timing npm:load:timers Completed in 0ms
+28 timing npm:load:configScope Completed in 1ms
+29 warn using --force Recommended protections disabled.
+30 timing npm:load Completed in 180ms
+31 timing arborist:ctor Completed in 4ms
+32 silly logfile done cleaning log files
+33 silly audit bulk request {
+33 silly audit   'ansi-styles': [ '4.3.0' ],
+33 silly audit   'balanced-match': [ '1.0.2' ],
+33 silly audit   'block-stream': [ '0.0.9' ],
+33 silly audit   'brace-expansion': [ '1.1.11' ],
+33 silly audit   'buffer-from': [ '0.1.2' ],
+33 silly audit   builtins: [ '1.0.3' ],
+33 silly audit   chalk: [ '4.1.2' ],
+33 silly audit   'color-convert': [ '2.0.1' ],
+33 silly audit   'color-name': [ '1.1.4' ],
+33 silly audit   commander: [ '4.1.1' ],
+33 silly audit   'concat-map': [ '0.0.1' ],
+33 silly audit   'core-util-is': [ '1.0.3' ],
+33 silly audit   'create-react-app': [ '5.0.1' ],
+33 silly audit   'cross-spawn': [ '7.0.3' ],
+33 silly audit   debug: [ '2.6.9' ],
+33 silly audit   duplexer2: [ '0.0.2' ],
+33 silly audit   envinfo: [ '7.10.0' ],
+33 silly audit   'fs-extra': [ '10.1.0' ],
+33 silly audit   'fs.realpath': [ '1.0.0' ],
+33 silly audit   fstream: [ '1.0.12' ],
+33 silly audit   'fstream-ignore': [ '1.0.5' ],
+33 silly audit   glob: [ '7.2.3' ],
+33 silly audit   'graceful-fs': [ '4.2.11' ],
+33 silly audit   'has-flag': [ '4.0.0' ],
+33 silly audit   hyperquest: [ '2.1.3' ],
+33 silly audit   inflight: [ '1.0.6' ],
+33 silly audit   inherits: [ '2.0.4' ],
+33 silly audit   isarray: [ '0.0.1', '1.0.0' ],
+33 silly audit   isexe: [ '2.0.0' ],
+33 silly audit   'js-tokens': [ '4.0.0' ],
+33 silly audit   jsonfile: [ '6.1.0' ],
+33 silly audit   kleur: [ '3.0.3' ],
+33 silly audit   'loose-envify': [ '1.4.0' ],
+33 silly audit   'lru-cache': [ '6.0.0' ],
+33 silly audit   minimatch: [ '3.1.2' ],
+33 silly audit   minimist: [ '1.2.8' ],
+33 silly audit   mkdirp: [ '0.5.6' ],
+33 silly audit   ms: [ '2.0.0' ],
+33 silly audit   once: [ '1.4.0' ],
+33 silly audit   'path-is-absolute': [ '1.0.1' ],
+33 silly audit   'path-key': [ '3.1.1' ],
+33 silly audit   'process-nextick-args': [ '2.0.1' ],
+33 silly audit   prompts: [ '2.4.2' ],
+33 silly audit   react: [ '18.2.0' ],
+33 silly audit   'readable-stream': [ '1.1.14', '2.3.8', '1.0.34' ],
+33 silly audit   rimraf: [ '2.7.1', '3.0.2' ],
+33 silly audit   'safe-buffer': [ '5.1.2' ],
+33 silly audit   semver: [ '7.5.4' ],
+33 silly audit   'shebang-command': [ '2.0.0' ],
+33 silly audit   'shebang-regex': [ '3.0.0' ],
+33 silly audit   sisteransi: [ '1.0.5' ],
+33 silly audit   string_decoder: [ '0.10.31', '1.1.1' ],
+33 silly audit   'supports-color': [ '7.2.0' ],
+33 silly audit   tar: [ '2.2.2' ],
+33 silly audit   'tar-pack': [ '3.4.1' ],
+33 silly audit   through2: [ '0.6.5' ],
+33 silly audit   tmp: [ '0.2.1' ],
+33 silly audit   'uid-number': [ '0.0.6' ],
+33 silly audit   universalify: [ '2.0.0' ],
+33 silly audit   'util-deprecate': [ '1.0.2' ],
+33 silly audit   'validate-npm-package-name': [ '3.0.0' ],
+33 silly audit   which: [ '2.0.2' ],
+33 silly audit   wrappy: [ '1.0.2' ],
+33 silly audit   xtend: [ '4.0.2' ],
+33 silly audit   yallist: [ '4.0.0' ]
+33 silly audit }
+34 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 843ms
+35 timing auditReport:getReport Completed in 872ms
+36 silly audit report {
+36 silly audit report   tar: [
+36 silly audit report     {
+36 silly audit report       id: 1089685,
+36 silly audit report       url: 'https://github.com/advisories/GHSA-3jfq-g458-7qm9',
+36 silly audit report       title: 'Arbitrary File Creation/Overwrite due to insufficient absolute path sanitization',
+36 silly audit report       severity: 'high',
+36 silly audit report       vulnerable_versions: '<3.2.2',
+36 silly audit report       cwe: [Array],
+36 silly audit report       cvss: [Object]
+36 silly audit report     },
+36 silly audit report     {
+36 silly audit report       id: 1091314,
+36 silly audit report       url: 'https://github.com/advisories/GHSA-r628-mhmh-qjhw',
+36 silly audit report       title: 'Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning',
+36 silly audit report       severity: 'high',
+36 silly audit report       vulnerable_versions: '<3.2.3',
+36 silly audit report       cwe: [Array],
+36 silly audit report       cvss: [Object]
+36 silly audit report     },
+36 silly audit report     {
+36 silly audit report       id: 1091343,
+36 silly audit report       url: 'https://github.com/advisories/GHSA-9r2w-394v-53qc',
+36 silly audit report       title: 'Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning using symbolic links',
+36 silly audit report       severity: 'high',
+36 silly audit report       vulnerable_versions: '<4.4.16',
+36 silly audit report       cwe: [Array],
+36 silly audit report       cvss: [Object]
+36 silly audit report     },
+36 silly audit report     {
+36 silly audit report       id: 1091346,
+36 silly audit report       url: 'https://github.com/advisories/GHSA-5955-9wpr-37jh',
+36 silly audit report       title: 'Arbitrary File Creation/Overwrite on Windows via insufficient relative path sanitization',
+36 silly audit report       severity: 'high',
+36 silly audit report       vulnerable_versions: '<4.4.18',
+36 silly audit report       cwe: [Array],
+36 silly audit report       cvss: [Object]
+36 silly audit report     },
+36 silly audit report     {
+36 silly audit report       id: 1092992,
+36 silly audit report       url: 'https://github.com/advisories/GHSA-qq89-hq3f-393p',
+36 silly audit report       title: 'Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning using symbolic links',
+36 silly audit report       severity: 'high',
+36 silly audit report       vulnerable_versions: '<4.4.18',
+36 silly audit report       cwe: [Array],
+36 silly audit report       cvss: [Object]
+36 silly audit report     }
+36 silly audit report   ]
+36 silly audit report }
+37 timing metavuln:cache:get:security-advisory:tar:Oa066nJpV2ox85F6qnk1N5eWmAmoWAMU7byYhWk4oYfHYrQ8aGHfCKRikfcy0dHDcKWKiPRc7Nz7R9fxKkj0Yw== Completed in 66ms
+38 timing metavuln:cache:get:security-advisory:tar://v7gXY4srL0Vdj6ndv/W5RidNqQcJEzKPP7wzp8ldEeGt+rcrGXk7GHbv4gaxsVCuNoYWXEG3Q0o+8zvTa+bA== Completed in 50ms
+39 timing metavuln:cache:get:security-advisory:tar:6IrrInvFtCltpVhVG2VxuzkWZKyBFFz82q8vKUG6SlVafYLuCJzljuu4f8Lj65dXTwl03T5SLKe7fT6K17W2yg== Completed in 50ms
+40 timing metavuln:cache:get:security-advisory:tar:p0AhLehZPY5CdqjgwJhs5z5O0h0MqVniwTfTsAMaLNDQ/RkWBbPEEZS5yXBrO2vDkOIaucWVWkY+Xk5QvzhkDA== Completed in 52ms
+41 timing metavuln:cache:get:security-advisory:tar:iX22dkMRdz5sNHJkIH9BBcy6srHLXMg4rYGql4fiqoNHXvrVPvLqL3FL7m1C3wd5kX3Dp8hfJvPCxYFiRlWIpw== Completed in 54ms
+42 http fetch GET 200 https://registry.npmjs.org/tar 118ms (cache hit)
+43 timing metavuln:packument:tar Completed in 144ms
+44 timing metavuln:load:security-advisory:tar:1089685 Completed in 9ms
+45 timing metavuln:calculate:security-advisory:tar:1089685 Completed in 159ms
+46 timing metavuln:load:security-advisory:tar:1091314 Completed in 4ms
+47 timing metavuln:calculate:security-advisory:tar:1091314 Completed in 143ms
+48 timing metavuln:load:security-advisory:tar:1091343 Completed in 3ms
+49 timing metavuln:calculate:security-advisory:tar:1091343 Completed in 146ms
+50 timing metavuln:load:security-advisory:tar:1091346 Completed in 4ms
+51 timing metavuln:calculate:security-advisory:tar:1091346 Completed in 150ms
+52 timing metavuln:load:security-advisory:tar:1092992 Completed in 3ms
+53 timing metavuln:calculate:security-advisory:tar:1092992 Completed in 155ms
+54 timing metavuln:cache:get:security-advisory:tar-pack:3KXljJwoAr/NHejfU6kg41RmjF3Pg6M28t7ViuMjk5SYV3kYL9qyGZ417dIFb1Y8K+hhpo0sBWpskxrKhsZQzQ== Completed in 14ms
+55 http fetch GET 200 https://registry.npmjs.org/tar-pack 23ms (cache hit)
+56 timing metavuln:packument:tar-pack Completed in 29ms
+57 timing metavuln:load:security-advisory:tar-pack:Oa066nJpV2ox85F6qnk1N5eWmAmoWAMU7byYhWk4oYfHYrQ8aGHfCKRikfcy0dHDcKWKiPRc7Nz7R9fxKkj0Yw== Completed in 1ms
+58 timing metavuln:calculate:security-advisory:tar-pack:Oa066nJpV2ox85F6qnk1N5eWmAmoWAMU7byYhWk4oYfHYrQ8aGHfCKRikfcy0dHDcKWKiPRc7Nz7R9fxKkj0Yw== Completed in 31ms
+59 timing metavuln:cache:get:security-advisory:create-react-app:BAP5sjD/UipbJVBCija12WlnlurqvRCOfkHPDCK3St763W6JIxpLfRD1F9PMmW4GEaZmK6BFkh/Pye257xPpCw== Completed in 11ms
+60 http fetch GET 200 https://registry.npmjs.org/create-react-app 22ms (cache hit)
+61 timing metavuln:packument:create-react-app Completed in 31ms
+62 timing metavuln:load:security-advisory:create-react-app:3KXljJwoAr/NHejfU6kg41RmjF3Pg6M28t7ViuMjk5SYV3kYL9qyGZ417dIFb1Y8K+hhpo0sBWpskxrKhsZQzQ== Completed in 7ms
+63 timing metavuln:calculate:security-advisory:create-react-app:3KXljJwoAr/NHejfU6kg41RmjF3Pg6M28t7ViuMjk5SYV3kYL9qyGZ417dIFb1Y8K+hhpo0sBWpskxrKhsZQzQ== Completed in 39ms
+64 timing auditReport:init Completed in 369ms
+65 timing audit Completed in 1443ms
+66 timing idealTree:init Completed in 162ms
+67 warn audit Updating create-react-app to 1.2.1, which is a SemVer major change.
+68 timing idealTree:userRequests Completed in 21ms
+69 silly idealTree buildDeps
+70 silly fetch manifest create-react-app@1.2.1
+71 silly placeDep ROOT create-react-app@1.2.1 REPLACE for:  want: 1.2.1
+72 silly fetch manifest chalk@^1.1.1
+73 silly fetch manifest commander@^2.9.0
+74 silly fetch manifest cross-spawn@^4.0.0
+75 silly fetch manifest fs-extra@^1.0.0
+76 silly fetch manifest semver@^5.0.3
+77 timing arborist:ctor Completed in 0ms
+78 http fetch GET 200 https://registry.npmjs.org/fs-extra 172ms (cache hit)
+79 http fetch GET 200 https://registry.npmjs.org/cross-spawn 188ms (cache hit)
+80 http fetch GET 200 https://registry.npmjs.org/semver 193ms (cache hit)
+81 http fetch GET 200 https://registry.npmjs.org/commander 214ms (cache hit)
+82 http fetch GET 200 https://registry.npmjs.org/chalk 232ms (cache hit)
+83 timing idealTree:#root Completed in 304ms
+84 silly placeDep ROOT chalk@1.1.3 OK for: create-react-app@1.2.1 want: ^1.1.1
+85 silly fetch manifest ansi-styles@^2.2.1
+86 silly fetch manifest escape-string-regexp@^1.0.2
+87 silly fetch manifest has-ansi@^2.0.0
+88 silly fetch manifest strip-ansi@^3.0.0
+89 silly fetch manifest supports-color@^2.0.0
+90 silly placeDep ROOT commander@2.20.3 OK for: create-react-app@1.2.1 want: ^2.9.0
+91 silly placeDep ROOT cross-spawn@4.0.2 OK for: create-react-app@1.2.1 want: ^4.0.0
+92 silly fetch manifest lru-cache@^4.0.1
+93 silly fetch manifest which@^1.2.9
+94 silly placeDep ROOT fs-extra@1.0.0 OK for: create-react-app@1.2.1 want: ^1.0.0
+95 silly fetch manifest graceful-fs@^4.1.2
+96 silly fetch manifest jsonfile@^2.1.0
+97 silly fetch manifest klaw@^1.0.0
+98 silly placeDep ROOT semver@5.7.2 OK for: create-react-app@1.2.1 want: ^5.0.3
+99 http fetch GET 200 https://registry.npmjs.org/ansi-styles 217ms (cache hit)
+100 http fetch GET 200 https://registry.npmjs.org/which 193ms (cache hit)
+101 http fetch GET 200 https://registry.npmjs.org/graceful-fs 194ms (cache hit)
+102 http fetch GET 200 https://registry.npmjs.org/lru-cache 214ms (cache hit)
+103 http fetch GET 200 https://registry.npmjs.org/jsonfile 213ms (cache hit)
+104 http fetch GET 200 https://registry.npmjs.org/supports-color 264ms (cache hit)
+105 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp 312ms (cache miss)
+106 http fetch GET 200 https://registry.npmjs.org/has-ansi 426ms (cache miss)
+107 http fetch GET 200 https://registry.npmjs.org/strip-ansi 430ms (cache miss)
+108 http fetch GET 200 https://registry.npmjs.org/klaw 457ms (cache miss)
+109 timing idealTree:node_modules/create-react-app Completed in 538ms
+110 silly placeDep ROOT ansi-styles@2.2.1 OK for: chalk@1.1.3 want: ^2.2.1
+111 silly placeDep ROOT escape-string-regexp@1.0.5 OK for: chalk@1.1.3 want: ^1.0.2
+112 silly placeDep ROOT has-ansi@2.0.0 OK for: chalk@1.1.3 want: ^2.0.0
+113 silly fetch manifest ansi-regex@^2.0.0
+114 silly placeDep ROOT strip-ansi@3.0.1 OK for: chalk@1.1.3 want: ^3.0.0
+115 silly placeDep ROOT supports-color@2.0.0 OK for: chalk@1.1.3 want: ^2.0.0
+116 http fetch GET 200 https://registry.npmjs.org/ansi-regex 174ms (cache miss)
+117 timing idealTree:node_modules/chalk Completed in 221ms
+118 timing idealTree:node_modules/ansi-styles Completed in 0ms
+119 timing idealTree:node_modules/commander Completed in 0ms
+120 silly placeDep ROOT lru-cache@4.1.5 OK for: cross-spawn@4.0.2 want: ^4.0.1
+121 silly fetch manifest pseudomap@^1.0.2
+122 silly fetch manifest yallist@^2.1.2
+123 silly placeDep ROOT which@1.3.1 OK for: cross-spawn@4.0.2 want: ^1.2.9
+124 silly fetch manifest isexe@^2.0.0
+125 http fetch GET 200 https://registry.npmjs.org/isexe 51ms (cache hit)
+126 http fetch GET 200 https://registry.npmjs.org/yallist 76ms (cache hit)
+127 http fetch GET 200 https://registry.npmjs.org/pseudomap 182ms (cache miss)
+128 timing idealTree:node_modules/cross-spawn Completed in 210ms
+129 timing idealTree:node_modules/escape-string-regexp Completed in 0ms
+130 silly placeDep ROOT graceful-fs@4.2.11 OK for: fs-extra@1.0.0 want: ^4.1.2
+131 silly placeDep ROOT jsonfile@2.4.0 OK for: fs-extra@1.0.0 want: ^2.1.0
+132 silly placeDep ROOT klaw@1.3.1 OK for: fs-extra@1.0.0 want: ^1.0.0
+133 timing idealTree:node_modules/fs-extra Completed in 30ms
+134 timing idealTree:node_modules/graceful-fs Completed in 0ms
+135 silly placeDep ROOT ansi-regex@2.1.1 OK for: has-ansi@2.0.0 want: ^2.0.0
+136 timing idealTree:node_modules/has-ansi Completed in 8ms
+137 timing idealTree:node_modules/ansi-regex Completed in 0ms
+138 timing idealTree:node_modules/jsonfile Completed in 1ms
+139 timing idealTree:node_modules/klaw Completed in 0ms
+140 silly placeDep ROOT pseudomap@1.0.2 OK for: lru-cache@4.1.5 want: ^1.0.2
+141 silly placeDep ROOT yallist@2.1.2 OK for: lru-cache@4.1.5 want: ^2.1.2
+142 timing idealTree:node_modules/lru-cache Completed in 16ms
+143 timing idealTree:node_modules/pseudomap Completed in 0ms
+144 timing idealTree:node_modules/semver Completed in 0ms
+145 timing idealTree:node_modules/strip-ansi Completed in 0ms
+146 timing idealTree:node_modules/supports-color Completed in 0ms
+147 silly placeDep ROOT isexe@2.0.0 OK for: which@1.3.1 want: ^2.0.0
+148 timing idealTree:node_modules/which Completed in 7ms
+149 timing idealTree:node_modules/isexe Completed in 0ms
+150 timing idealTree:node_modules/yallist Completed in 0ms
+151 timing idealTree:buildDeps Completed in 1347ms
+152 timing idealTree:fixDepFlags Completed in 4ms
+153 timing idealTree Completed in 1541ms
+154 timing reify:loadTrees Completed in 1547ms
+155 timing reify:diffTrees Completed in 16ms
+156 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/ansi-styles' ]
+157 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/balanced-match' ]
+158 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/block-stream' ]
+159 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/brace-expansion' ]
+160 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/buffer-from' ]
+161 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/chalk' ]
+162 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/color-convert' ]
+163 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/color-name' ]
+164 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/commander' ]
+165 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/concat-map' ]
+166 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/core-util-is' ]
+167 silly reify mark retired [
+167 silly reify   '/data/data/com.termux/files/home/node_modules/create-react-app',
+167 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/create-react-app'
+167 silly reify ]
+168 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/cross-spawn' ]
+169 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/debug' ]
+170 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/duplexer2' ]
+171 silly reify mark retired [
+171 silly reify   '/data/data/com.termux/files/home/node_modules/envinfo',
+171 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/envinfo'
+171 silly reify ]
+172 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/fs-extra' ]
+173 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/fs.realpath' ]
+174 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/fstream' ]
+175 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/fstream-ignore' ]
+176 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/glob' ]
+177 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/has-flag' ]
+178 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/hyperquest' ]
+179 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/inflight' ]
+180 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/inherits' ]
+181 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/isarray' ]
+182 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/jsonfile' ]
+183 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/kleur' ]
+184 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/lru-cache' ]
+185 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/minimatch' ]
+186 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/minimist' ]
+187 silly reify mark retired [
+187 silly reify   '/data/data/com.termux/files/home/node_modules/mkdirp',
+187 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/mkdirp'
+187 silly reify ]
+188 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/ms' ]
+189 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/once' ]
+190 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/path-is-absolute' ]
+191 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/path-key' ]
+192 silly reify mark retired [
+192 silly reify   '/data/data/com.termux/files/home/node_modules/process-nextick-args'
+192 silly reify ]
+193 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/prompts' ]
+194 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/readable-stream' ]
+195 silly reify mark retired [
+195 silly reify   '/data/data/com.termux/files/home/node_modules/rimraf',
+195 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/rimraf'
+195 silly reify ]
+196 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/safe-buffer' ]
+197 silly reify mark retired [
+197 silly reify   '/data/data/com.termux/files/home/node_modules/semver',
+197 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/semver'
+197 silly reify ]
+198 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/shebang-command' ]
+199 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/shebang-regex' ]
+200 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/sisteransi' ]
+201 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/string_decoder' ]
+202 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/supports-color' ]
+203 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/tar' ]
+204 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/tar-pack' ]
+205 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/through2' ]
+206 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/tmp' ]
+207 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/uid-number' ]
+208 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/universalify' ]
+209 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/util-deprecate' ]
+210 silly reify mark retired [
+210 silly reify   '/data/data/com.termux/files/home/node_modules/which',
+210 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/node-which'
+210 silly reify ]
+211 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/wrappy' ]
+212 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/xtend' ]
+213 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/yallist' ]
+214 silly reify moves {
+214 silly reify   '/data/data/com.termux/files/home/node_modules/ansi-styles': '/data/data/com.termux/files/home/node_modules/.ansi-styles-RPQb6dFf',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/balanced-match': '/data/data/com.termux/files/home/node_modules/.balanced-match-ioCd1OxR',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/block-stream': '/data/data/com.termux/files/home/node_modules/.block-stream-quv3yiAC',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/brace-expansion': '/data/data/com.termux/files/home/node_modules/.brace-expansion-nt5pCwIY',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/buffer-from': '/data/data/com.termux/files/home/node_modules/.buffer-from-4iMDqIly',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/chalk': '/data/data/com.termux/files/home/node_modules/.chalk-E13fl7YQ',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/color-convert': '/data/data/com.termux/files/home/node_modules/.color-convert-8bcE6J64',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/color-name': '/data/data/com.termux/files/home/node_modules/.color-name-KbtdJY8Z',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/commander': '/data/data/com.termux/files/home/node_modules/.commander-TdA8pqmq',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/concat-map': '/data/data/com.termux/files/home/node_modules/.concat-map-LZ1KUyZq',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/core-util-is': '/data/data/com.termux/files/home/node_modules/.core-util-is-NYqnvQf7',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/create-react-app': '/data/data/com.termux/files/home/node_modules/.create-react-app-EhNXFLgT',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/create-react-app': '/data/data/com.termux/files/home/node_modules/.bin/.create-react-app-rZbVZ0m1',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/cross-spawn': '/data/data/com.termux/files/home/node_modules/.cross-spawn-pGEKKcmO',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/debug': '/data/data/com.termux/files/home/node_modules/.debug-TkhpOaas',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/duplexer2': '/data/data/com.termux/files/home/node_modules/.duplexer2-lpDiTw2v',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/envinfo': '/data/data/com.termux/files/home/node_modules/.envinfo-PE2JGjsS',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/envinfo': '/data/data/com.termux/files/home/node_modules/.bin/.envinfo-QQXSTyAo',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/fs-extra': '/data/data/com.termux/files/home/node_modules/.fs-extra-iGCDBzWf',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/fs.realpath': '/data/data/com.termux/files/home/node_modules/.fs.realpath-ASaur2Ss',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/fstream': '/data/data/com.termux/files/home/node_modules/.fstream-3NmxEUqP',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/fstream-ignore': '/data/data/com.termux/files/home/node_modules/.fstream-ignore-WUXuzw8I',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/glob': '/data/data/com.termux/files/home/node_modules/.glob-9dqMWBWt',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/has-flag': '/data/data/com.termux/files/home/node_modules/.has-flag-tlC8Sgdw',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/hyperquest': '/data/data/com.termux/files/home/node_modules/.hyperquest-DH0crAm0',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/inflight': '/data/data/com.termux/files/home/node_modules/.inflight-9v2MiTuX',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/inherits': '/data/data/com.termux/files/home/node_modules/.inherits-jKD05L0h',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/isarray': '/data/data/com.termux/files/home/node_modules/.isarray-LBaDReer',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/jsonfile': '/data/data/com.termux/files/home/node_modules/.jsonfile-qdmc7Aib',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/kleur': '/data/data/com.termux/files/home/node_modules/.kleur-ayvyG0tR',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/lru-cache': '/data/data/com.termux/files/home/node_modules/.lru-cache-4QoNq3cE',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/minimatch': '/data/data/com.termux/files/home/node_modules/.minimatch-znduohYh',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/minimist': '/data/data/com.termux/files/home/node_modules/.minimist-To6Tct78',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/mkdirp': '/data/data/com.termux/files/home/node_modules/.mkdirp-BoVHScqz',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/mkdirp': '/data/data/com.termux/files/home/node_modules/.bin/.mkdirp-Tc74RN30',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/ms': '/data/data/com.termux/files/home/node_modules/.ms-jWq6nSfg',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/once': '/data/data/com.termux/files/home/node_modules/.once-8HP7pnjY',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/path-is-absolute': '/data/data/com.termux/files/home/node_modules/.path-is-absolute-jLBAUwx7',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/path-key': '/data/data/com.termux/files/home/node_modules/.path-key-VDIs7B7K',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/process-nextick-args': '/data/data/com.termux/files/home/node_modules/.process-nextick-args-inn7Ge8D',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/prompts': '/data/data/com.termux/files/home/node_modules/.prompts-VYPxKrnk',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/readable-stream': '/data/data/com.termux/files/home/node_modules/.readable-stream-X9MXXje1',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/rimraf': '/data/data/com.termux/files/home/node_modules/.rimraf-gJauOlw0',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/rimraf': '/data/data/com.termux/files/home/node_modules/.bin/.rimraf-hCMIRf8s',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/safe-buffer': '/data/data/com.termux/files/home/node_modules/.safe-buffer-9HH6LKLQ',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/semver': '/data/data/com.termux/files/home/node_modules/.semver-hizeRS0C',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/semver': '/data/data/com.termux/files/home/node_modules/.bin/.semver-hzBXa4pK',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/shebang-command': '/data/data/com.termux/files/home/node_modules/.shebang-command-szYuPGH7',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/shebang-regex': '/data/data/com.termux/files/home/node_modules/.shebang-regex-SFCxRv0G',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/sisteransi': '/data/data/com.termux/files/home/node_modules/.sisteransi-UoddjPiT',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/string_decoder': '/data/data/com.termux/files/home/node_modules/.string_decoder-ZF9Q6CPD',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/supports-color': '/data/data/com.termux/files/home/node_modules/.supports-color-WOQDG9kR',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/tar': '/data/data/com.termux/files/home/node_modules/.tar-qsOtX1RE',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/tar-pack': '/data/data/com.termux/files/home/node_modules/.tar-pack-ng2R5R6O',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/through2': '/data/data/com.termux/files/home/node_modules/.through2-YFz6zmWO',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/tmp': '/data/data/com.termux/files/home/node_modules/.tmp-zty6HYpa',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/uid-number': '/data/data/com.termux/files/home/node_modules/.uid-number-HezlDXmc',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/universalify': '/data/data/com.termux/files/home/node_modules/.universalify-cZOScpNQ',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/util-deprecate': '/data/data/com.termux/files/home/node_modules/.util-deprecate-t8kXv5bl',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/which': '/data/data/com.termux/files/home/node_modules/.which-ZaWMyj6n',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/.bin/node-which': '/data/data/com.termux/files/home/node_modules/.bin/.node-which-VvhfnbS9',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/wrappy': '/data/data/com.termux/files/home/node_modules/.wrappy-UsUZuIjw',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/xtend': '/data/data/com.termux/files/home/node_modules/.xtend-uLSlsQ0v',
+214 silly reify   '/data/data/com.termux/files/home/node_modules/yallist': '/data/data/com.termux/files/home/node_modules/.yallist-w2K1fIIk'
+214 silly reify }
+215 timing reify:retireShallow Completed in 69ms
+216 timing reify:createSparse Completed in 10ms
+217 timing reify:loadBundles Completed in 0ms
+218 silly audit bulk request {
+218 silly audit   builtins: [ '1.0.3' ],
+218 silly audit   'js-tokens': [ '4.0.0' ],
+218 silly audit   'loose-envify': [ '1.4.0' ],
+218 silly audit   react: [ '18.2.0' ],
+218 silly audit   'validate-npm-package-name': [ '3.0.0' ],
+218 silly audit   'create-react-app': [ '1.2.1' ],
+218 silly audit   chalk: [ '1.1.3' ],
+218 silly audit   commander: [ '2.20.3' ],
+218 silly audit   'cross-spawn': [ '4.0.2' ],
+218 silly audit   'fs-extra': [ '1.0.0' ],
+218 silly audit   semver: [ '5.7.2' ],
+218 silly audit   'ansi-styles': [ '2.2.1' ],
+218 silly audit   'escape-string-regexp': [ '1.0.5' ],
+218 silly audit   'has-ansi': [ '2.0.0' ],
+218 silly audit   'strip-ansi': [ '3.0.1' ],
+218 silly audit   'supports-color': [ '2.0.0' ],
+218 silly audit   'lru-cache': [ '4.1.5' ],
+218 silly audit   which: [ '1.3.1' ],
+218 silly audit   'graceful-fs': [ '4.2.11' ],
+218 silly audit   jsonfile: [ '2.4.0' ],
+218 silly audit   klaw: [ '1.3.1' ],
+218 silly audit   'ansi-regex': [ '2.1.1' ],
+218 silly audit   pseudomap: [ '1.0.2' ],
+218 silly audit   yallist: [ '2.1.2' ],
+218 silly audit   isexe: [ '2.0.0' ]
+218 silly audit }
+219 silly tarball no local data for pseudomap@https://registry.npmjs.org/pseudomap/-/pseudomap-1.0.2.tgz. Extracting by manifest.
+220 silly tarball no local data for ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.1.1.tgz. Extracting by manifest.
+221 silly tarball no local data for klaw@https://registry.npmjs.org/klaw/-/klaw-1.3.1.tgz. Extracting by manifest.
+222 silly tarball no local data for strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.1.tgz. Extracting by manifest.
+223 silly tarball no local data for has-ansi@https://registry.npmjs.org/has-ansi/-/has-ansi-2.0.0.tgz. Extracting by manifest.
+224 silly tarball no local data for escape-string-regexp@https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz. Extracting by manifest.
+225 silly tarball no local data for yallist@https://registry.npmjs.org/yallist/-/yallist-2.1.2.tgz. Extracting by manifest.
+226 silly tarball no local data for which@https://registry.npmjs.org/which/-/which-1.3.1.tgz. Extracting by manifest.
+227 silly tarball no local data for supports-color@https://registry.npmjs.org/supports-color/-/supports-color-2.0.0.tgz. Extracting by manifest.
+228 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-5.7.2.tgz. Extracting by manifest.
+229 silly tarball no local data for lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-4.1.5.tgz. Extracting by manifest.
+230 silly tarball no local data for jsonfile@https://registry.npmjs.org/jsonfile/-/jsonfile-2.4.0.tgz. Extracting by manifest.
+231 silly tarball no local data for fs-extra@https://registry.npmjs.org/fs-extra/-/fs-extra-1.0.0.tgz. Extracting by manifest.
+232 silly tarball no local data for cross-spawn@https://registry.npmjs.org/cross-spawn/-/cross-spawn-4.0.2.tgz. Extracting by manifest.
+233 silly tarball no local data for create-react-app@https://registry.npmjs.org/create-react-app/-/create-react-app-1.2.1.tgz. Extracting by manifest.
+234 silly tarball no local data for commander@https://registry.npmjs.org/commander/-/commander-2.20.3.tgz. Extracting by manifest.
+235 silly tarball no local data for chalk@https://registry.npmjs.org/chalk/-/chalk-1.1.3.tgz. Extracting by manifest.
+236 silly tarball no local data for ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-2.2.1.tgz. Extracting by manifest.
+237 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 655ms
+238 timing auditReport:getReport Completed in 663ms
+239 silly audit report {}
+240 timing auditReport:init Completed in 1ms
+241 timing reify:audit Completed in 665ms
+242 http fetch GET 200 https://registry.npmjs.org/pseudomap/-/pseudomap-1.0.2.tgz 1071ms (cache miss)
+243 timing reifyNode:node_modules/pseudomap Completed in 1220ms
+244 http fetch GET 200 https://registry.npmjs.org/klaw/-/klaw-1.3.1.tgz 1072ms (cache miss)
+245 timing reifyNode:node_modules/klaw Completed in 1235ms
+246 http fetch GET 200 https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.1.1.tgz 1088ms (cache miss)
+247 timing reifyNode:node_modules/ansi-regex Completed in 1244ms
+248 http fetch GET 200 https://registry.npmjs.org/ansi-styles/-/ansi-styles-2.2.1.tgz 1006ms (cache miss)
+249 timing reifyNode:node_modules/ansi-styles Completed in 1257ms
+250 http fetch GET 200 https://registry.npmjs.org/has-ansi/-/has-ansi-2.0.0.tgz 1116ms (cache miss)
+251 timing reifyNode:node_modules/has-ansi Completed in 1292ms
+252 http fetch GET 200 https://registry.npmjs.org/chalk/-/chalk-1.1.3.tgz 1047ms (cache miss)
+253 timing reifyNode:node_modules/chalk Completed in 1294ms
+254 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz 1125ms (cache miss)
+255 timing reifyNode:node_modules/escape-string-regexp Completed in 1309ms
+256 http fetch GET 200 https://registry.npmjs.org/yallist/-/yallist-2.1.2.tgz 1121ms (cache miss)
+257 timing reifyNode:node_modules/yallist Completed in 1311ms
+258 http fetch GET 200 https://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.1.tgz 1147ms (cache miss)
+259 timing reifyNode:node_modules/strip-ansi Completed in 1315ms
+260 http fetch GET 200 https://registry.npmjs.org/supports-color/-/supports-color-2.0.0.tgz 1115ms (cache miss)
+261 timing reifyNode:node_modules/supports-color Completed in 1317ms
+262 http fetch GET 200 https://registry.npmjs.org/which/-/which-1.3.1.tgz 1125ms (cache miss)
+263 timing reifyNode:node_modules/which Completed in 1321ms
+264 http fetch GET 200 https://registry.npmjs.org/lru-cache/-/lru-cache-4.1.5.tgz 1114ms (cache miss)
+265 timing reifyNode:node_modules/lru-cache Completed in 1330ms
+266 http fetch GET 200 https://registry.npmjs.org/jsonfile/-/jsonfile-2.4.0.tgz 1120ms (cache miss)
+267 timing reifyNode:node_modules/jsonfile Completed in 1340ms
+268 http fetch GET 200 https://registry.npmjs.org/cross-spawn/-/cross-spawn-4.0.2.tgz 1119ms (cache miss)
+269 timing reifyNode:node_modules/cross-spawn Completed in 1351ms
+270 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-2.20.3.tgz 1121ms (cache miss)
+271 timing reifyNode:node_modules/commander Completed in 1363ms
+272 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-5.7.2.tgz 1170ms (cache miss)
+273 timing reifyNode:node_modules/semver Completed in 1378ms
+274 http fetch GET 200 https://registry.npmjs.org/fs-extra/-/fs-extra-1.0.0.tgz 1245ms (cache miss)
+275 timing reifyNode:node_modules/fs-extra Completed in 1480ms
+276 http fetch GET 200 https://registry.npmjs.org/create-react-app/-/create-react-app-1.2.1.tgz 1454ms (cache miss)
+277 timing reifyNode:node_modules/create-react-app Completed in 1692ms
+278 timing reify:unpack Completed in 1702ms
+279 timing reify:unretire Completed in 5ms
+280 timing build:queue Completed in 8ms
+281 timing build:link:node_modules/semver Completed in 25ms
+282 timing build:link:node_modules/create-react-app Completed in 30ms
+283 timing build:link:node_modules/which Completed in 24ms
+284 timing build:link Completed in 32ms
+285 timing build:deps Completed in 44ms
+286 timing build Completed in 45ms
+287 timing reify:build Completed in 49ms
+288 timing reify:trash Completed in 238ms
+289 timing reify:save Completed in 105ms
+290 timing reify Completed in 3807ms
+291 silly ADD node_modules/pseudomap
+292 silly ADD node_modules/ansi-regex
+293 silly ADD node_modules/klaw
+294 silly ADD node_modules/strip-ansi
+295 silly ADD node_modules/has-ansi
+296 silly ADD node_modules/escape-string-regexp
+297 silly CHANGE node_modules/yallist
+298 silly REMOVE node_modules/xtend
+299 silly REMOVE node_modules/wrappy
+300 silly CHANGE node_modules/which
+301 silly REMOVE node_modules/util-deprecate
+302 silly REMOVE node_modules/universalify
+303 silly REMOVE node_modules/uid-number
+304 silly REMOVE node_modules/tmp
+305 silly REMOVE node_modules/tmp/node_modules/rimraf
+306 silly REMOVE node_modules/through2
+307 silly REMOVE node_modules/through2/node_modules/readable-stream
+308 silly REMOVE node_modules/tar-pack
+309 silly REMOVE node_modules/tar-pack/node_modules/string_decoder
+310 silly REMOVE node_modules/tar-pack/node_modules/readable-stream
+311 silly REMOVE node_modules/tar-pack/node_modules/isarray
+312 silly REMOVE node_modules/tar
+313 silly CHANGE node_modules/supports-color
+314 silly REMOVE node_modules/string_decoder
+315 silly REMOVE node_modules/sisteransi
+316 silly REMOVE node_modules/shebang-regex
+317 silly REMOVE node_modules/shebang-command
+318 silly CHANGE node_modules/semver
+319 silly REMOVE node_modules/safe-buffer
+320 silly REMOVE node_modules/rimraf
+321 silly REMOVE node_modules/readable-stream
+322 silly REMOVE node_modules/prompts
+323 silly REMOVE node_modules/process-nextick-args
+324 silly REMOVE node_modules/path-key
+325 silly REMOVE node_modules/path-is-absolute
+326 silly REMOVE node_modules/once
+327 silly REMOVE node_modules/ms
+328 silly REMOVE node_modules/mkdirp
+329 silly REMOVE node_modules/minimist
+330 silly REMOVE node_modules/minimatch
+331 silly CHANGE node_modules/lru-cache
+332 silly REMOVE node_modules/kleur
+333 silly CHANGE node_modules/jsonfile
+334 silly REMOVE node_modules/isarray
+335 silly REMOVE node_modules/inherits
+336 silly REMOVE node_modules/inflight
+337 silly REMOVE node_modules/hyperquest
+338 silly REMOVE node_modules/has-flag
+339 silly REMOVE node_modules/glob
+340 silly REMOVE node_modules/fstream-ignore
+341 silly REMOVE node_modules/fstream
+342 silly REMOVE node_modules/fs.realpath
+343 silly CHANGE node_modules/fs-extra
+344 silly REMOVE node_modules/envinfo
+345 silly REMOVE node_modules/duplexer2
+346 silly REMOVE node_modules/debug
+347 silly CHANGE node_modules/cross-spawn
+348 silly CHANGE node_modules/create-react-app
+349 silly REMOVE node_modules/core-util-is
+350 silly REMOVE node_modules/concat-map
+351 silly CHANGE node_modules/commander
+352 silly REMOVE node_modules/color-name
+353 silly REMOVE node_modules/color-convert
+354 silly CHANGE node_modules/chalk
+355 silly REMOVE node_modules/buffer-from
+356 silly REMOVE node_modules/brace-expansion
+357 silly REMOVE node_modules/block-stream
+358 silly REMOVE node_modules/balanced-match
+359 silly CHANGE node_modules/ansi-styles
+360 timing command:audit Completed in 5301ms
+361 verbose exit 0
+362 timing npm Completed in 6789ms
+363 info ok

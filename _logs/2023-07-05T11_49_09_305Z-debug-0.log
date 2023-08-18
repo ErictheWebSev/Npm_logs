@@ -1,0 +1,81 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@9.6.6
+2 info using node@v20.2.0
+3 timing npm:load:whichnode Completed in 22ms
+4 timing config:load:defaults Completed in 12ms
+5 timing config:load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc Completed in 4ms
+6 timing config:load:builtin Completed in 5ms
+7 timing config:load:cli Completed in 14ms
+8 timing config:load:env Completed in 3ms
+9 timing config:load:project Completed in 57ms
+10 timing config:load:file:/data/data/com.termux/files/home/.npmrc Completed in 21ms
+11 timing config:load:user Completed in 21ms
+12 timing config:load:file:/data/data/com.termux/files/usr/etc/npmrc Completed in 11ms
+13 timing config:load:global Completed in 13ms
+14 timing config:load:setEnvs Completed in 9ms
+15 timing config:load Completed in 143ms
+16 timing npm:load:configload Completed in 144ms
+17 timing npm:load:mkdirpcache Completed in 6ms
+18 timing npm:load:mkdirplogs Completed in 4ms
+19 verbose title npm install
+20 verbose argv "install"
+21 timing npm:load:setTitle Completed in 10ms
+22 timing config:load:flatten Completed in 28ms
+23 timing npm:load:display Completed in 34ms
+24 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2023-07-05T11_49_09_305Z-
+25 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2023-07-05T11_49_09_305Z-debug-0.log
+26 timing npm:load:logFile Completed in 81ms
+27 timing npm:load:timers Completed in 0ms
+28 timing npm:load:configScope Completed in 0ms
+29 timing npm:load Completed in 311ms
+30 timing arborist:ctor Completed in 8ms
+31 silly logfile done cleaning log files
+32 timing idealTree:init Completed in 190ms
+33 timing idealTree:userRequests Completed in 1ms
+34 silly idealTree buildDeps
+35 timing idealTree:#root Completed in 1ms
+36 timing idealTree:buildDeps Completed in 9ms
+37 timing idealTree:fixDepFlags Completed in 0ms
+38 timing idealTree Completed in 212ms
+39 timing arborist:ctor Completed in 1ms
+40 timing reify:loadTrees Completed in 256ms
+41 timing reify:diffTrees Completed in 20ms
+42 silly reify moves {}
+43 timing reify:retireShallow Completed in 8ms
+44 timing reify:createSparse Completed in 0ms
+45 timing reify:loadBundles Completed in 0ms
+46 silly audit bulk request {
+46 silly audit   'js-tokens': [ '4.0.0' ],
+46 silly audit   'loose-envify': [ '1.4.0' ],
+46 silly audit   react: [ '18.2.0' ]
+46 silly audit }
+47 timing reify:unpack Completed in 19ms
+48 timing reify:unretire Completed in 0ms
+49 timing build:queue Completed in 0ms
+50 timing build:deps Completed in 4ms
+51 timing build Completed in 6ms
+52 timing reify:build Completed in 9ms
+53 timing reify:trash Completed in 1ms
+54 timing reify:save Completed in 67ms
+55 silly audit bulk request failed undefined
+56 verbose audit error FetchError: request to https://registry.npmjs.org/-/npm/v1/security/audits/quick failed, reason: 
+56 verbose audit error     at ClientRequest.<anonymous> (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/minipass-fetch/lib/index.js:130:14)
+56 verbose audit error     at ClientRequest.emit (node:events:511:28)
+56 verbose audit error     at TLSSocket.socketErrorListener (node:_http_client:495:9)
+56 verbose audit error     at TLSSocket.emit (node:events:523:35)
+56 verbose audit error     at emitErrorNT (node:internal/streams/destroy:151:8)
+56 verbose audit error     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+56 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+56 verbose audit error   code: 'ENETUNREACH',
+56 verbose audit error   errno: 'ENETUNREACH',
+56 verbose audit error   type: 'system'
+56 verbose audit error }
+57 silly audit error undefined
+58 timing auditReport:getReport Completed in 17646ms
+59 silly audit report null
+60 timing reify:audit Completed in 17651ms
+61 timing reify Completed in 17981ms
+62 timing command:install Completed in 18119ms
+63 verbose exit 0
+64 timing npm Completed in 21381ms
+65 info ok

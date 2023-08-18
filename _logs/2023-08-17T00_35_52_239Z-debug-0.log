@@ -1,0 +1,46 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@9.6.6
+2 info using node@v20.2.0
+3 timing npm:load:whichnode Completed in 11ms
+4 timing config:load:defaults Completed in 15ms
+5 timing config:load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc Completed in 3ms
+6 timing config:load:builtin Completed in 4ms
+7 timing config:load:cli Completed in 17ms
+8 timing config:load:env Completed in 2ms
+9 timing config:load:file:/storage/emulated/0/testproj/.npmrc Completed in 1ms
+10 timing config:load:project Completed in 16ms
+11 timing config:load:file:/data/data/com.termux/files/home/.npmrc Completed in 14ms
+12 timing config:load:user Completed in 17ms
+13 timing config:load:file:/data/data/com.termux/files/usr/etc/npmrc Completed in 1ms
+14 timing config:load:global Completed in 2ms
+15 timing config:load:setEnvs Completed in 5ms
+16 timing config:load Completed in 84ms
+17 timing npm:load:configload Completed in 86ms
+18 timing npm:load:mkdirpcache Completed in 10ms
+19 timing npm:load:mkdirplogs Completed in 4ms
+20 verbose title npm init
+21 verbose argv "init" "--yes"
+22 timing npm:load:setTitle Completed in 6ms
+23 timing config:load:flatten Completed in 17ms
+24 timing npm:load:display Completed in 22ms
+25 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2023-08-17T00_35_52_239Z-
+26 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2023-08-17T00_35_52_239Z-debug-0.log
+27 timing npm:load:logFile Completed in 63ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 209ms
+31 silly logfile done cleaning log files
+32 silly package data {
+32 silly package data   name: 'testproj',
+32 silly package data   version: '1.0.0',
+32 silly package data   description: '',
+32 silly package data   main: 'index.js',
+32 silly package data   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+32 silly package data   keywords: [],
+32 silly package data   author: '',
+32 silly package data   license: 'ISC'
+32 silly package data }
+33 timing command:init Completed in 147ms
+34 verbose exit 0
+35 timing npm Completed in 3371ms
+36 info ok

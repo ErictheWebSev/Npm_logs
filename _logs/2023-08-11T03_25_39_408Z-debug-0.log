@@ -1,0 +1,36 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@9.6.6
+2 info using node@v20.2.0
+3 timing npm:load:whichnode Completed in 10ms
+4 timing config:load:defaults Completed in 13ms
+5 timing config:load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc Completed in 11ms
+6 timing config:load:builtin Completed in 13ms
+7 timing config:load:cli Completed in 19ms
+8 timing config:load:env Completed in 4ms
+9 timing config:load:file:/storage/emulated/0/.npmrc Completed in 2ms
+10 timing config:load:project Completed in 32ms
+11 timing config:load:file:/data/data/com.termux/files/home/.npmrc Completed in 16ms
+12 timing config:load:user Completed in 18ms
+13 timing config:load:file:/data/data/com.termux/files/usr/etc/npmrc Completed in 2ms
+14 timing config:load:global Completed in 4ms
+15 timing config:load:setEnvs Completed in 8ms
+16 timing config:load Completed in 117ms
+17 timing npm:load:configload Completed in 117ms
+18 timing npm:load:mkdirpcache Completed in 2ms
+19 timing npm:load:mkdirplogs Completed in 3ms
+20 verbose title npm exec create-react-app my-react-app2
+21 verbose argv "exec" "--" "create-react-app" "my-react-app2"
+22 timing npm:load:setTitle Completed in 11ms
+23 timing config:load:flatten Completed in 23ms
+24 timing npm:load:display Completed in 29ms
+25 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2023-08-11T03_25_39_408Z-
+26 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2023-08-11T03_25_39_408Z-debug-0.log
+27 timing npm:load:logFile Completed in 85ms
+28 timing npm:load:timers Completed in 1ms
+29 timing npm:load:configScope Completed in 1ms
+30 timing npm:load Completed in 266ms
+31 silly logfile done cleaning log files
+32 timing command:exec Completed in 336791ms
+33 verbose exit 1
+34 timing npm Completed in 340040ms
+35 verbose code 1
